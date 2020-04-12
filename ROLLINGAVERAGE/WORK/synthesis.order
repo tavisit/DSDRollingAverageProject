@@ -1,0 +1,6 @@
+i<>.\src\OCTAVIAN\Filter.vhd
+i<>.\src\OCTAVIAN\HexConverter.vhd
+i<>.\src\OCTAVIAN\MainRegister.vhd
+i<>.\src\OCTAVIAN\MUX.vhd
+i<>.\src\OCTAVIAN\NBitAdder.vhd
+i<>.\src\OCTAVIAN\ShiftRegister.vhd

@@ -1,0 +1,12 @@
+[Version]
+Version=6.3
+[Designs]
+work=.\WORK\WORK.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+work=1

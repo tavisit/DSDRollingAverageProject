@@ -1,0 +1,10 @@
+MUX ENTITY
+NineBitAdder ENTITY
+SevenBitAdder ENTITY
+TenBitAdder ENTITY
+EightBitAdder ENTITY
+ElevenBitAdder ENTITY
+ShiftRegister ENTITY
+HexConverter ENTITY
+MainRegister ENTITY
+Filter ENTITY

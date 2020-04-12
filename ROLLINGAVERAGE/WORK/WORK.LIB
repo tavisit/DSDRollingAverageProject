@@ -1,0 +1,112 @@
+timestamp=1586701448059
+
+[eightbitadder]
+A/eightbitadder=A/EightBitAdder 21|./src/OCTAVIAN/NBitAdder.vhd|54|1*13875
+B/eightbitadder=3*13268
+H/eightbitadder=0*35378
+R=./src/OCTAVIAN/NBitAdder.vhd|48
+V=0*37103
+
+[elevenbitadder]
+A/elevenbitadder=A/ElevenBitAdder 21|./src/OCTAVIAN/NBitAdder.vhd|109|1*20087
+B/elevenbitadder=3*16772
+H/elevenbitadder=0*45108
+R=./src/OCTAVIAN/NBitAdder.vhd|103
+V=0*46870
+
+[filter]
+A/filter=A/Filter 21|./src/OCTAVIAN/Filter.vhd|37|1*0
+H/filter=0*398
+R=./src/OCTAVIAN/Filter.vhd|28
+V=0*17554
+
+[hexconverter]
+A/hexconverter=A/HexConverter 21|./src/OCTAVIAN/HexConverter.vhd|38|1*4556
+B/hexconverter=3*0
+H/hexconverter=0*19670
+R=./src/OCTAVIAN/HexConverter.vhd|30
+V=0*22229
+
+[mainregister]
+A/mainregister=A/MainRegister 21|./src/OCTAVIAN/MainRegister.vhd|39|1*7599
+B/mainregister=3*7572
+H/mainregister=0*23881
+R=./src/OCTAVIAN/MainRegister.vhd|31
+V=0*25241
+
+[mux]
+A/mux=A/MUX 21|./src/OCTAVIAN/MUX.vhd|41|1*9373
+B/mux=3*9840
+H/mux=0*26968
+R=./src/OCTAVIAN/MUX.vhd|30
+V=0*28722
+
+[ninebitadder]
+A/ninebitadder=A/NineBitAdder 21|./src/OCTAVIAN/NBitAdder.vhd|72|1*15939
+B/ninebitadder=3*14437
+H/ninebitadder=0*38626
+R=./src/OCTAVIAN/NBitAdder.vhd|66
+V=0*40345
+
+[sevenbitadder]
+A/sevenbitadder=A/SevenBitAdder 21|./src/OCTAVIAN/NBitAdder.vhd|36|1*11811
+B/sevenbitadder=3*12099
+H/sevenbitadder=0*32126
+R=./src/OCTAVIAN/NBitAdder.vhd|30
+V=0*33851
+
+[shiftregister]
+A/shiftregister=A/ShiftRegister 21|./src/OCTAVIAN/ShiftRegister.vhd|38|1*22187
+B/shiftregister=3*17942
+H/shiftregister=0*48451
+R=./src/OCTAVIAN/ShiftRegister.vhd|30
+V=0*50054
+
+[tenbitadder]
+A/tenbitadder=A/TenBitAdder 21|./src/OCTAVIAN/NBitAdder.vhd|90|1*18013
+B/tenbitadder=3*15605
+H/tenbitadder=0*41865
+R=./src/OCTAVIAN/NBitAdder.vhd|84
+V=0*43575
+
+[~A]
+./src/OCTAVIAN/Filter.vhd~Filter=0*0*326
+./src/OCTAVIAN/Filter.vhd~FilterFilter=0*15158*16652
+./src/OCTAVIAN/HexConverter.vhd~HexConverter=0*19285*19586
+./src/OCTAVIAN/HexConverter.vhd~HexConverterHexConverter=0*19769*21429
+./src/OCTAVIAN/MUX.vhd~MUX=0*26500*26902
+./src/OCTAVIAN/MUX.vhd~MUXMUX=0*27049*27483
+./src/OCTAVIAN/MainRegister.vhd~MainRegister=0*23468*23797
+./src/OCTAVIAN/MainRegister.vhd~MainRegisterMainRegister=0*23980*24434
+./src/OCTAVIAN/NBitAdder.vhd~EightBitAdder=0*34998*35296
+./src/OCTAVIAN/NBitAdder.vhd~EightBitAdderEightBitAdder=0*36033*36347
+./src/OCTAVIAN/NBitAdder.vhd~ElevenBitAdder=0*44724*45025
+./src/OCTAVIAN/NBitAdder.vhd~ElevenBitAdderElevenBitAdder=0*45772*46091
+./src/OCTAVIAN/NBitAdder.vhd~NineBitAdder=0*38250*38545
+./src/OCTAVIAN/NBitAdder.vhd~NineBitAdderNineBitAdder=0*39283*39592
+./src/OCTAVIAN/NBitAdder.vhd~SevenBitAdder=0*31746*32044
+./src/OCTAVIAN/NBitAdder.vhd~SevenBitAdderSevenBitAdder=0*32781*33095
+./src/OCTAVIAN/NBitAdder.vhd~TenBitAdder=0*41493*41785
+./src/OCTAVIAN/NBitAdder.vhd~TenBitAdderTenBitAdder=0*42520*42824
+./src/OCTAVIAN/ShiftRegister.vhd~ShiftRegister=0*48022*48365
+./src/OCTAVIAN/ShiftRegister.vhd~ShiftRegisterShiftRegister=0*48552*49113
+ModifyID=69
+Version=73
+
+[~MFT]
+0=79|0WORK.mgf|50054|0
+1=9|1WORK.mgf|22187|0
+3=8|3WORK.mgf|17942|0
+
+[~U]
+eightbitadder=EightBitAdder 11|0*36442|0*36647
+elevenbitadder=ElevenBitAdder 11|0*46188|0*46399
+filter=Filter 11|0*16730|0*16974
+hexconverter=HexConverter 11|0*21525|0*21762
+mainregister=MainRegister 11|0*24530|0*24754
+mux=MUX 11|0*27552|0*27835
+ninebitadder=NineBitAdder 11|0*39685|0*39888
+sevenbitadder=SevenBitAdder 11|0*33190|0*33395
+shiftregister=ShiftRegister 11|0*49212|0*49468
+tenbitadder=TenBitAdder 11|0*42915|0*43117
+
