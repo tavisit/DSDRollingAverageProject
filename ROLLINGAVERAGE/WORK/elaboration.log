@@ -1,15 +1,16 @@
-elbread.dll ver. 1.0.5.365 Sun Apr 12 17:24:16 2020
+elbread.dll ver. 1.0.5.365 Fri Apr 17 20:11:52 2020
 
 
---------------------------------
-Entity  | Architecture | Library
---------------------------------
-filter  | filter       | WORK
---------------------------------
+-----------------------------------
+Entity     | Architecture | Library
+-----------------------------------
+nbitadder  | nbitadder    | WORK
+-----------------------------------
 
 -------------------------
 Package         | Library
 -------------------------
 standard        | std
 std_logic_1164  | ieee
+numeric_std     | ieee
 -------------------------

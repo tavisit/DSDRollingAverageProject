@@ -1,4 +1,5 @@
 [Files List]
 C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\STD/src/standard.vhd=S
 C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/stdlogic.vhd=S
-D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/OCTAVIAN/Filter.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/numstd.vhd=S
+D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/OCTAVIAN/NBitAdder.vhd=S

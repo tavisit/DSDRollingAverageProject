@@ -64,7 +64,8 @@ component HexConverter is
 			INPUT:IN STD_LOGIC_VECTOR(7 downto 0 );	--INPUT SEGMENTED IN TWO PARTS
 		  OUTPUT1,OUTPUT2: OUT STD_LOGIC_VECTOR(6 downto 0));
 end component;
-
+--lENGTH CONTROLS HOW MUCH TO SHIFT
+--SHIFT LENGTH(1 DOWNTO 0)
 component ShiftRegister is
 	port(
 	D: in STD_LOGIC_vector(11 downto 0);
@@ -72,35 +73,23 @@ component ShiftRegister is
 	     clock, RESET: in STD_LOGIC;
 		 q: inout STD_LOGIC_vector(11 downto 0));
 end component;
-
-component SevenBitAdder is
-  port(
-    A, B : in std_logic_vector(7 downto 0);
-    SUM : out std_logic_vector(8 downto 0));
-end component;
-
-component EightBitAdder is
-  port(
-    A, B : in std_logic_vector(8 downto 0);
-    SUM : out std_logic_vector(9 downto 0));
-end component;
-
-component NineBitAdder is
-  port(
-    A, B : in std_logic_vector(9 downto 0);
-    SUM : out std_logic_vector(10 downto 0));
-end component;
-
-component TenBitAdder is
-  port(
-    A, B : in std_logic_vector(10 downto 0);
-    SUM : out std_logic_vector(11 downto 0));
-end component;
-component ElevenBitAdder is
-  port(
-    A, B : in std_logic_vector(11 downto 0);
-    SUM : out std_logic_vector(12 downto 0));
-end component;	
+--NBITADDER
+--WILL BE USED WITH NUMBEROFINPUTS AS FOLLOWS:
+--8 FOR THE FIRST LAYER
+--9 FOR THE SECOND
+--10 FOR THE THIRD
+--11 FOR THE FOURTH
+component NBitAdder is	
+  generic(
+        numberOfInputs : Integer := 8
+    ); port(
+        cin     : in std_logic;
+        inputs1 : in std_logic_vector(numberOfInputs-1 downto 0);
+        inputs2 : in std_logic_vector(numberOfInputs-1 downto 0);
+        outputs : out std_logic_vector(numberOfInputs downto 0)
+    );
+end component;	 
+SIGNAL OUTPUTSMALL : STD_LOGIC_VECTOR(5 downto 0);
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -111,7 +100,5 @@ end component;
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 begin
-
-	 
 
 end Filter;

@@ -4,3 +4,5 @@ i<>.\src\OCTAVIAN\MainRegister.vhd
 i<>.\src\OCTAVIAN\MUX.vhd
 i<>.\src\OCTAVIAN\NBitAdder.vhd
 i<>.\src\OCTAVIAN\ShiftRegister.vhd
+i<>.\src\BITADDER.vhd
+i<>.\src\GATES.vhd

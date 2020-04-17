@@ -26,23 +26,31 @@ FLOWTOOLS=ONLY_IMPL
 [IMPLEMENTATION]
 UCF=
 
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=filter|filter|0 hexconverter|hexconverter|0 nbitadder|nbitadder|0 
+ShowHide=ShowTopLevel
+Selected=
+
 [Groups]
 OCTAVIAN=1
 RARES=1
 
 [Files]
+OCTAVIAN/BITADDER.vhd=-1
+OCTAVIAN/NBitAdder.vhd=-1
 OCTAVIAN/Filter.vhd=-1
 OCTAVIAN/HexConverter.vhd=-1
 OCTAVIAN/MainRegister.vhd=-1
 OCTAVIAN/MUX.vhd=-1
-OCTAVIAN/NBitAdder.vhd=-1
 OCTAVIAN/ShiftRegister.vhd=-1
 
 [Files.Data]
+.\src\OCTAVIAN\BITADDER.vhd=VHDL Source Code
+.\src\OCTAVIAN\NBitAdder.vhd=VHDL Source Code
 .\src\OCTAVIAN\Filter.vhd=VHDL Source Code
 .\src\OCTAVIAN\HexConverter.vhd=VHDL Source Code
 .\src\OCTAVIAN\MainRegister.vhd=VHDL Source Code
 .\src\OCTAVIAN\MUX.vhd=VHDL Source Code
-.\src\OCTAVIAN\NBitAdder.vhd=VHDL Source Code
 .\src\OCTAVIAN\ShiftRegister.vhd=VHDL Source Code
 

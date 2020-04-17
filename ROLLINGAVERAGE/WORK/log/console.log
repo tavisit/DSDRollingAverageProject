@@ -1,0 +1,736 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Error: COMP96_0020: NBitAdder.vhd : (44, 1): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0015: NBitAdder.vhd : (48, 15): ';' expected.
+# Error: COMP96_0019: NBitAdder.vhd : (48, 15): Keyword "end" expected.
+# Error: COMP96_0329: NBitAdder.vhd : (49, 2): Generate statement must have a label.
+# Error: COMP96_0015: NBitAdder.vhd : (50, 66): ')' expected.
+# Error: COMP96_0015: NBitAdder.vhd : (51, 2): ';' expected.
+# Error: COMP96_0019: NBitAdder.vhd : (53, 6): Keyword "generate" expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Error: COMP96_0015: NBitAdder.vhd : (48, 15): ';' expected.
+# Error: COMP96_0019: NBitAdder.vhd : (48, 15): Keyword "end" expected.
+# Error: COMP96_0329: NBitAdder.vhd : (49, 2): Generate statement must have a label.
+# Error: COMP96_0015: NBitAdder.vhd : (50, 66): ')' expected.
+# Error: COMP96_0015: NBitAdder.vhd : (51, 2): ';' expected.
+# Error: COMP96_0019: NBitAdder.vhd : (53, 6): Keyword "generate" expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Error: COMP96_0015: NBitAdder.vhd : (48, 15): ';' expected.
+# Error: COMP96_0019: NBitAdder.vhd : (48, 15): Keyword "end" expected.
+# Error: COMP96_0329: NBitAdder.vhd : (49, 2): Generate statement must have a label.
+# Error: COMP96_0015: NBitAdder.vhd : (50, 94): ')' expected.
+# Error: COMP96_0015: NBitAdder.vhd : (51, 2): ';' expected.
+# Error: COMP96_0019: NBitAdder.vhd : (53, 6): Keyword "generate" expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Error: COMP96_0015: NBitAdder.vhd : (48, 15): ';' expected.
+# Error: COMP96_0019: NBitAdder.vhd : (48, 15): Keyword "end" expected.
+# Error: COMP96_0329: NBitAdder.vhd : (49, 2): Generate statement must have a label.
+# Error: COMP96_0015: NBitAdder.vhd : (50, 94): ')' expected.
+# Error: COMP96_0015: NBitAdder.vhd : (51, 2): ';' expected.
+# Error: COMP96_0019: NBitAdder.vhd : (53, 6): Keyword "generate" expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Error: COMP96_0015: NBitAdder.vhd : (46, 50): ')' expected.
+# Error: COMP96_0015: NBitAdder.vhd : (46, 52): ';' expected.
+# Error: COMP96_0329: NBitAdder.vhd : (47, 2): Generate statement must have a label.
+# Error: COMP96_0015: NBitAdder.vhd : (48, 94): ')' expected.
+# Error: COMP96_0015: NBitAdder.vhd : (49, 2): ';' expected.
+# Error: COMP96_0019: NBitAdder.vhd : (51, 5): Keyword "generate" expected.
+# Error: COMP96_0019: NBitAdder.vhd : (51, 14): Keyword "end" expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Error: COMP96_0329: NBitAdder.vhd : (47, 2): Generate statement must have a label.
+# Error: COMP96_0015: NBitAdder.vhd : (48, 66): ')' expected.
+# Error: COMP96_0015: NBitAdder.vhd : (49, 2): ';' expected.
+# Error: COMP96_0019: NBitAdder.vhd : (51, 5): Keyword "generate" expected.
+# Error: COMP96_0019: NBitAdder.vhd : (51, 14): Keyword "end" expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Error: COMP96_0015: NBitAdder.vhd : (48, 66): ')' expected.
+# Error: COMP96_0015: NBitAdder.vhd : (49, 2): ';' expected.
+# Error: COMP96_0019: NBitAdder.vhd : (51, 5): Keyword "generate" expected.
+# Error: COMP96_0019: NBitAdder.vhd : (51, 14): Keyword "end" expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Error: COMP96_0015: NBitAdder.vhd : (49, 15): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom $DSN/src/OCTAVIAN/Filter.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
+# Compile Entity "Filter"
+# Entity `Filter' has been skipped - no difference detected.
+# Compile Architecture "Filter" of Entity "Filter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+asim -advdataflow  filter filter
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2425 kB (elbread=1071 elab2=305 kernel=1049 sdf=0)
+# 7:33 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: filter (filter)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2425 kB (elbread=1071 elab2=305 kernel=1049 sdf=0)
+# 7:34 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: filter (filter)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2425 kB (elbread=1071 elab2=305 kernel=1049 sdf=0)
+# 7:34 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: filter (filter)
+acom $DSN/src/OCTAVIAN/Filter.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
+# Compile Entity "Filter"
+# Entity `Filter' has been skipped - no difference detected.
+# Compile Architecture "Filter" of Entity "Filter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2425 kB (elbread=1071 elab2=305 kernel=1049 sdf=0)
+# 7:34 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: filter (filter)
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  filter filter
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2425 kB (elbread=1071 elab2=305 kernel=1049 sdf=0)
+# 7:34 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: filter (filter)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  filter filter
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2425 kB (elbread=1071 elab2=305 kernel=1049 sdf=0)
+# 7:51 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: filter (filter)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  nbitadder nbitadder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Fatal Error: ELAB2_0016 NBitAdder.vhd (32): No value assigned to generic "AddingLength".
+# ELAB2: Last instance before error: /
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# Fatal error occurred during simulation initialization.
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -advdataflow  nbitadder nbitadder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2425 kB (elbread=1071 elab2=305 kernel=1049 sdf=0)
+# 7:53 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: nbitadder (nbitadder)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  nbitadder nbitadder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2425 kB (elbread=1071 elab2=305 kernel=1049 sdf=0)
+# 7:54 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: nbitadder (nbitadder)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+run 200 ns
+# KERNEL: stopped at time: 600 ns
+run 200 ns
+# KERNEL: stopped at time: 800 ns
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2426 kB (elbread=1071 elab2=306 kernel=1049 sdf=0)
+# 7:58 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: nbitadder (nbitadder)
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  nbitadder nbitadder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2426 kB (elbread=1071 elab2=306 kernel=1049 sdf=0)
+# 7:58 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: nbitadder (nbitadder)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  nbitadder nbitadder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2426 kB (elbread=1071 elab2=306 kernel=1049 sdf=0)
+# 7:59 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: nbitadder (nbitadder)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  nbitadder nbitadder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2425 kB (elbread=1071 elab2=305 kernel=1049 sdf=0)
+# 8:00 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: nbitadder (nbitadder)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Error: COMP96_0329: NBitAdder.vhd : (51, 5): Generate statement must have a label.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Error: ULM_0021: Architecture "nbitadder" is not up-to-date. Please, recompile file: ./src/OCTAVIAN/NBitAdder.vhd.
+# Error: ULM_0021: Architecture "nbitadder" is not up-to-date. Please, recompile file: ./src/OCTAVIAN/NBitAdder.vhd.
+acom $DSN/src/OCTAVIAN/Filter.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
+# Compile Entity "Filter"
+# Entity `Filter' has been skipped - no difference detected.
+# Compile Architecture "Filter" of Entity "Filter"
+# Error: COMP96_0078: Filter.vhd : (99, 13): Unknown identifier "AddingLength".
+# Error: COMP96_0133: Filter.vhd : (99, 13): Cannot find object declaration.
+# Error: COMP96_0112: Filter.vhd : (99, 13): "AddingLength" does not match the formal name.
+# Error: COMP96_0100: Filter.vhd : (100, 10): Actual parameter type in port map does not match the port formal type "enable".
+# Error: COMP96_0100: Filter.vhd : (100, 19): Actual parameter type in port map does not match the port formal type "cin".
+# Error: COMP96_0207: Filter.vhd : (98, 0): No actual specified for local port "inputs2".
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Error: ULM_0021: Architecture "nbitadder" is not up-to-date. Please, recompile file: ./src/OCTAVIAN/NBitAdder.vhd.
+# Error: ULM_0021: Architecture "nbitadder" is not up-to-date. Please, recompile file: ./src/OCTAVIAN/NBitAdder.vhd.
+acom $DSN/src/OCTAVIAN/Filter.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
+# Compile Entity "Filter"
+# Entity `Filter' has been skipped - no difference detected.
+# Compile Architecture "Filter" of Entity "Filter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+# Error: ULM_0021: Architecture "nbitadder" is not up-to-date. Please, recompile file: ./src/OCTAVIAN/NBitAdder.vhd.
+# Error: ULM_0021: Architecture "nbitadder" is not up-to-date. Please, recompile file: ./src/OCTAVIAN/NBitAdder.vhd.
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Error: COMP96_0329: NBitAdder.vhd : (51, 5): Generate statement must have a label.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+# Error: ULM_0021: Architecture "nbitadder" is not up-to-date. Please, recompile file: ./src/OCTAVIAN/NBitAdder.vhd.
+# Error: ULM_0021: Architecture "nbitadder" is not up-to-date. Please, recompile file: ./src/OCTAVIAN/NBitAdder.vhd.
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  nbitadder nbitadder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2424 kB (elbread=1070 elab2=305 kernel=1049 sdf=0)
+# 8:03 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: nbitadder (nbitadder)
+# Signal BigA not found in design
+# Signal SUM not found in design
+# Signal BIGB not found in design
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/OCTAVIAN/Filter.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
+# Compile Entity "Filter"
+# Entity `Filter' has been skipped - no difference detected.
+# Compile Architecture "Filter" of Entity "Filter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom $DSN/src/OCTAVIAN/Filter.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
+# Compile Entity "Filter"
+# Entity `Filter' has been skipped - no difference detected.
+# Compile Architecture "Filter" of Entity "Filter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  hexconverter hexconverter
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2425 kB (elbread=1070 elab2=306 kernel=1049 sdf=0)
+# 8:07 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: hexconverter (hexconverter)
+# Signal outputs not found in design
+# Signal inputs1 not found in design
+# Signal inputs2 not found in design
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  hexconverter hexconverter
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2425 kB (elbread=1070 elab2=306 kernel=1049 sdf=0)
+# 8:07 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: hexconverter (hexconverter)
+# Signal outputs not found in design
+# Signal inputs1 not found in design
+# Signal inputs2 not found in design
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+run 200 ns
+# KERNEL: stopped at time: 600 ns
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2425 kB (elbread=1070 elab2=306 kernel=1049 sdf=0)
+# 8:08 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: hexconverter (hexconverter)
+# Signal outputs not found in design
+# Signal inputs1 not found in design
+# Signal inputs2 not found in design
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+run 200 ns
+# KERNEL: stopped at time: 600 ns
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2425 kB (elbread=1070 elab2=306 kernel=1049 sdf=0)
+# 8:08 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: hexconverter (hexconverter)
+# Signal outputs not found in design
+# Signal inputs1 not found in design
+# Signal inputs2 not found in design
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+run 200 ns
+# KERNEL: stopped at time: 600 ns
+run 200 ns
+# KERNEL: stopped at time: 800 ns
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  nbitadder nbitadder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2427 kB (elbread=1071 elab2=307 kernel=1049 sdf=0)
+# 8:09 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: nbitadder (nbitadder)
+# Error: Invalid stimulator parameters
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+acom $DSN/src/OCTAVIAN/NBitAdder.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  nbitadder nbitadder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2427 kB (elbread=1071 elab2=307 kernel=1049 sdf=0)
+# 8:11 PM, Friday, April 17, 2020
+# Simulation has been initialized
+# Selected Top-Level: nbitadder (nbitadder)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+acom $DSN/src/OCTAVIAN/Filter.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
+# Compile Entity "Filter"
+# Entity `Filter' has been skipped - no difference detected.
+# Compile Architecture "Filter" of Entity "Filter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom $DSN/src/octavian/bitadder.vhd $DSN/src/octavian/nbitadder.vhd $DSN/src/octavian/filter.vhd $DSN/src/octavian/hexconverter.vhd $DSN/src/octavian/mainregister.vhd $DSN/src/octavian/mux.vhd $DSN/src/octavian/shiftregister.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\BITADDER.vhd
+# Compile Entity "BITADDER"
+# Entity `BITADDER' has been skipped - no difference detected.
+# Compile Architecture "BITADDER" of Entity "BITADDER"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Entity `NBitAdder' has been skipped - no difference detected.
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
+# Compile Entity "Filter"
+# Entity `Filter' has been skipped - no difference detected.
+# Compile Architecture "Filter" of Entity "Filter"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\HexConverter.vhd
+# Compile Entity "HexConverter"
+# Entity `HexConverter' has been skipped - no difference detected.
+# Compile Architecture "HexConverter" of Entity "HexConverter"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MainRegister.vhd
+# Compile Entity "MainRegister"
+# Entity `MainRegister' has been skipped - no difference detected.
+# Compile Architecture "MainRegister" of Entity "MainRegister"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MUX.vhd
+# Compile Entity "MUX"
+# Entity `MUX' has been skipped - no difference detected.
+# Compile Architecture "MUX" of Entity "MUX"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\ShiftRegister.vhd
+# Compile Entity "ShiftRegister"
+# Entity `ShiftRegister' has been skipped - no difference detected.
+# Compile Architecture "ShiftRegister" of Entity "ShiftRegister"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+# Simulation has been stopped

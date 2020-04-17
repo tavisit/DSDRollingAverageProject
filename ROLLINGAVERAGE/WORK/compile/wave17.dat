@@ -1,0 +1,20 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+$ENDTIME 200000
+I 1 "a#45#std_logic_vector((numberOfInputs-1) downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 17 1 4 inputs2
+$SC 1-13/4
+I 3 "a#41#std_logic_vector(numberOfInputs downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT 38 3 5 outputs
+$SC 18-34/4
+$IN +5 2 cin
+$BUS IN 59 1 4 inputs1
+$SC 43-55/4
+$BUS OUT +5 3 5 outputs
+$SC 18-34/4
+$BUS IN 61 1 4 inputs1
+$SC 43-55/4
+$BUS IN +7 1 4 6 0 "2"
+$SC 1-13/4
+$ENDWAVE

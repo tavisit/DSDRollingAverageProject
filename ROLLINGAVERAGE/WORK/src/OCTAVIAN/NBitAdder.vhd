@@ -25,90 +25,35 @@
 -- Seven Bit Adder_____________________________________________________________________________________________________________
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
-USE ieee.std_logic_arith.all;
-
-entity SevenBitAdder is
+use IEEE.numeric_std.all;
+ 
+entity NBitAdder is	
+  generic(
+  numberOfInputs : Integer := 8); 
   port(
-    A, B : in std_logic_vector(7 downto 0);
-    SUM : out std_logic_vector(8 downto 0));
-end SevenBitAdder;		
+        inputs1 : in std_logic_vector(numberOfInputs-1 downto 0);
+        inputs2 : in std_logic_vector(numberOfInputs-1 downto 0);
+        outputs : out std_logic_vector(numberOfInputs downto 0)
+    );
+end NBitAdder;		
 
-architecture SevenBitAdder of SevenBitAdder is
-signal tmp: std_logic_vector(8 downto 0);		 
-  begin
-    tmp <= conv_std_logic_vector((unsigned(A) + unsigned(B)),9);
-    SUM <= tmp(8 downto 0);
-end SevenBitAdder;
+architecture NBITADDER of NBitAdder is	  
 
--- Eight Bit Adder_____________________________________________________________________________________________________________
-library IEEE;
-use IEEE.STD_LOGIC_1164.all; 
-USE ieee.std_logic_arith.all;
+signal carry  : std_logic_vector(numberOfInputs downto 0);
+signal result : std_logic_vector(numberOfInputs - 1 downto 0); 
 
-entity EightBitAdder is
-  port(
-    A, B : in std_logic_vector(8 downto 0);
-    SUM : out std_logic_vector(9 downto 0));
-end EightBitAdder;		
+begin
 
-architecture EightBitAdder of EightBitAdder is
-signal tmp: std_logic_vector(9 downto 0);		 
-  begin
-    tmp <= conv_std_logic_vector((unsigned(A) + unsigned(B)),10);
-    SUM <= tmp(9 downto 0);
-end EightBitAdder;
+    carry(0) <= '0';
 
--- Nine Bit Adder_____________________________________________________________________________________________________________
-library IEEE;
-use IEEE.STD_LOGIC_1164.all;
-USE ieee.std_logic_arith.all;
+    FORLOOP:for I in 0 to numberOfInputs-1 generate
+    begin
+        result(I) <= inputs1(I) xor inputs2(I) xor carry(I);
+        carry(I+1) <= 
+            (inputs1(I) and inputs2(I)) or 
+            (inputs1(I) and carry(I))   or
+            (inputs2(I) and carry(I));
+    end generate;
 
-entity NineBitAdder is
-  port(
-    A, B : in std_logic_vector(9 downto 0);
-    SUM : out std_logic_vector(10 downto 0));
-end NineBitAdder;		
-
-architecture NineBitAdder of NineBitAdder is
-signal tmp: std_logic_vector(10 downto 0);		 
-  begin
-    tmp <= conv_std_logic_vector((unsigned(A) + unsigned(B)),11);
-    SUM <= tmp(10 downto 0);
-end NineBitAdder;
-
--- Ten Bit Adder_____________________________________________________________________________________________________________
-library IEEE;
-use IEEE.STD_LOGIC_1164.all;
-USE ieee.std_logic_arith.all;
-
-entity TenBitAdder is
-  port(
-    A, B : in std_logic_vector(10 downto 0);
-    SUM : out std_logic_vector(11 downto 0));
-end TenBitAdder;		
-
-architecture TenBitAdder of TenBitAdder is
-signal tmp: std_logic_vector(11 downto 0);		 
-  begin
-    tmp <= conv_std_logic_vector((unsigned(A) + unsigned(B)),12);
-    SUM <= tmp(11 downto 0);
-end TenBitAdder; 	 
-
--- Eleven Bit Adder_____________________________________________________________________________________________________________
-
-library IEEE;
-use IEEE.STD_LOGIC_1164.all;
-USE ieee.std_logic_arith.all;
-
-entity ElevenBitAdder is
-  port(
-    A, B : in std_logic_vector(11 downto 0);
-    SUM : out std_logic_vector(12 downto 0));
-end ElevenBitAdder;		
-
-architecture ElevenBitAdder of ElevenBitAdder is
-signal tmp: std_logic_vector(12 downto 0);		 
-  begin
-    tmp <= conv_std_logic_vector((unsigned(A) + unsigned(B)),13);
-    SUM <= tmp(12 downto 0);
-end ElevenBitAdder; 
+    outputs <= carry(numberOfInputs) & result;
+end NBITADDER;
