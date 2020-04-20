@@ -22,13 +22,14 @@ SYNTH_TOOL=<none>
 IMPL_TOOL=<none>
 FAMILY=
 FLOWTOOLS=ONLY_IMPL
+FUNC_LIB=WORK
 
 [IMPLEMENTATION]
 UCF=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=filter|filter|0 hexconverter|hexconverter|0 nbitadder|nbitadder|0 
+HierarchyInformation=filter|filter|0   
 ShowHide=ShowTopLevel
 Selected=
 

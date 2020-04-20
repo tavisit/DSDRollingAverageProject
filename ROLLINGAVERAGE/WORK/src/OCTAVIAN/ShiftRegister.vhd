@@ -27,23 +27,23 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 
-entity ShiftRegister is
+entity SHIFTREGISTER is
 	port(
 	D: in STD_LOGIC_vector(11 downto 0);
 	Length : IN STD_LOGIC_VECTOR (2 downto 0);
-	     clock, RESET: in STD_LOGIC;
+	RESET: in STD_LOGIC;
 		 q: inout STD_LOGIC_vector(11 downto 0));
-end ShiftRegister;		 
+end SHIFTREGISTER;		 
 
-architecture ShiftRegister of ShiftRegister is
+architecture SHIFTREGISTER of SHIFTREGISTER is
 begin
 
 	-- SHIFT REGISTER
-	process(clock,RESET) 
+	process(RESET,D,Q) 
 	begin
 		if(RESET = '1')then 
 			q <= "000000000000";
-		elsif (clock'event and clock = '1') then
+		else
 			if(Length(2) = '0') then 
 				q<=q;
 			else
@@ -57,4 +57,4 @@ begin
 			end if;
 		end if;
 	end process;	
-end architecture ShiftRegister;
+end architecture SHIFTREGISTER;

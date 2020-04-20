@@ -1,16 +1,23 @@
-elbread.dll ver. 1.0.5.365 Fri Apr 17 20:11:52 2020
+elbread.dll ver. 1.0.5.365 Mon Apr 20 17:04:42 2020
 
 
------------------------------------
-Entity     | Architecture | Library
------------------------------------
-nbitadder  | nbitadder    | WORK
------------------------------------
+----------------------------------------
+Entity         | Architecture  | Library
+----------------------------------------
+filter         | filter        | WORK
+mainregister   | mainregister  | work
+nbitadder      | nbitadder     | work
+mux            | mux           | work
+shiftregister  | shiftregister | work
+hexconverter   | hexconverter  | work
+----------------------------------------
 
--------------------------
-Package         | Library
--------------------------
-standard        | std
-std_logic_1164  | ieee
-numeric_std     | ieee
--------------------------
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+std_logic_1164      | ieee
+std_logic_arith     | ieee
+numeric_std         | ieee
+std_logic_unsigned  | ieee
+-----------------------------

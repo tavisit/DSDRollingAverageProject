@@ -29,7 +29,7 @@ use IEEE.numeric_std.all;
  
 entity NBitAdder is	
   generic(
-  numberOfInputs : Integer := 8); 
+  numberOfInputs : Integer); 
   port(
         inputs1 : in std_logic_vector(numberOfInputs-1 downto 0);
         inputs2 : in std_logic_vector(numberOfInputs-1 downto 0);

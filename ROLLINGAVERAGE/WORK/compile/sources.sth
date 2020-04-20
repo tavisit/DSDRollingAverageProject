@@ -1,5 +1,12 @@
 [Files List]
 C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\STD/src/standard.vhd=S
 C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/stdlogic.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/arith.vhd=S
 C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/numstd.vhd=S
-D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/OCTAVIAN/NBitAdder.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/unsigned.vhd=S
+d:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/OCTAVIAN/NBitAdder.vhd=S
+d:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/OCTAVIAN/HexConverter.vhd=S
+d:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/OCTAVIAN/ShiftRegister.vhd=S
+d:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/OCTAVIAN/MUX.vhd=S
+d:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/OCTAVIAN/MainRegister.vhd=S
+d:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/OCTAVIAN/Filter.vhd=S
