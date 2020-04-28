@@ -3,16 +3,24 @@
 	<document type="stimulators" version="1">
 		<set name="ASDB Stimulators" active="1">
 			<stimulator>
-				<signal_path value="/Pseudo0_255/clk"/>
-				<rawdescription value="CLK:FRM:Override:100.000000;2;1;0;50;1:Clock:1:"/>
+				<signal_path value="/Data_Generator/Control(0)"/>
+				<rawdescription value="KEY:KEY:Override:51/0,1:3:1:"/>
 			</stimulator>
 			<stimulator>
-				<signal_path value="/Pseudo0_255/enable"/>
-				<rawdescription value="VAL:FRM:Override:1:&lt;= 1:1:"/>
+				<signal_path value="/Data_Generator/Control(1)"/>
+				<rawdescription value="KEY:KEY:Override:50/0,1:2:1:"/>
 			</stimulator>
 			<stimulator>
-				<signal_path value="/Pseudo0_255/reset"/>
+				<signal_path value="/Data_Generator/Control(2)"/>
+				<rawdescription value="KEY:KEY:Override:49/0,1:1:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/Data_Generator/Reset"/>
 				<rawdescription value="VAL:FRM:Override:0:&lt;= 0:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/Data_Generator/SystemClock"/>
+				<rawdescription value="CLK:FRM:Override:100.000000;2;1;0;50;1:Clock:1:"/>
 			</stimulator>
 		</set>
 	</document>

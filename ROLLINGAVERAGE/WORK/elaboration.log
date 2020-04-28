@@ -1,27 +1,38 @@
-Active-HDL 11.1.262.7351 2020-04-28 14:17:31
+Active-HDL 11.1.262.7351 2020-04-28 20:40:26
 
 Elaboration top modules:
-Architecture                  PseudoRNG(Pseudo0_15)
+Architecture                  DataGen(Data_Generator)
 
 
--------------------------------------------------------------------------------------------
-Entity     | Architecture | Library | Info | Compiler Version        | Compilation Options
--------------------------------------------------------------------------------------------
-Pseudo0_15 | PseudoRNG    | work    |      | 11.1.262.7351 (Windows) | -O3
--------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+Entity           | Architecture | Library | Info | Compiler Version        | Compilation Options
+-------------------------------------------------------------------------------------------------
+Data_Generator   | DataGen      | work    |      | 11.1.262.7351 (Windows) | -O3
+FrequencyDivider | FreqDiv      | work    |      | 11.1.262.7351 (Windows) | -O3
+SquareWave       | SqWv         | work    |      | 11.1.262.7351 (Windows) | -O3
+SixDigit1        | Seq          | work    |      | 11.1.262.7351 (Windows) | -O3
+SixDigit2        | Seq          | work    |      | 11.1.262.7351 (Windows) | -O3
+Pseudo0_15       | PseudoRNG    | work    |      | 11.1.262.7351 (Windows) | -O3
+Pseudo0_255      | PseudoRNG    | work    |      | 11.1.262.7351 (Windows) | -O3
+Mux_8            | Mux          | work    |      | 11.1.262.7351 (Windows) | -O3
+Mux_8_2          | Mux_8_2      | work    |      | 11.1.262.7351 (Windows) | -O3
+Reg              | Reg          | work    |      | 11.1.262.7351 (Windows) | -O3
+-------------------------------------------------------------------------------------------------
 
--------------------------------------------------------------------------------------------
-VHDL Package              | Library | Info | Compiler Version        | Compilation Options
--------------------------------------------------------------------------------------------
-standard                  | std     |      |                         | <unavailable>
-TEXTIO                    | std     |      |                         | <unavailable>
-std_logic_1164            | ieee    |      |                         | <unavailable>
--------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+VHDL Package                    | Library | Info | Compiler Version        | Compilation Options
+-------------------------------------------------------------------------------------------------
+standard                        | std     |      |                         | <unavailable>
+TEXTIO                          | std     |      |                         | <unavailable>
+std_logic_1164                  | ieee    |      |                         | <unavailable>
+std_logic_arith                 | ieee    |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED              | ieee    |      |                         | <unavailable>
+-------------------------------------------------------------------------------------------------
 
--------------------------------------------------------------------------------------------
-Library                   | Comment
--------------------------------------------------------------------------------------------
-ieee                      | Standard IEEE packages library
-std                       | Standard VHDL library
-work                      | None
--------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+Library                         | Comment
+-------------------------------------------------------------------------------------------------
+ieee                            | Standard IEEE packages library
+std                             | Standard VHDL library
+work                            | None
+-------------------------------------------------------------------------------------------------

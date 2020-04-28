@@ -61,7 +61,20 @@ architecture DataGen of Data_Generator is
 		   Sel: in Std_logic_vector(2 downto 0);
 		   Data : out Std_logic_vector(7 downto 0));
 	end component;
-															  	
+	
+	component Mux_8_2 is	
+	PORT ( A: in Std_logic;
+		   B : in Std_logic;
+		   C : in Std_logic;
+		   D : in Std_logic;
+		   E : in Std_logic;
+		   F : in Std_logic;
+		   G : in Std_logic;
+		   H : in Std_logic;
+		   Sel: in Std_logic_vector(2 downto 0);
+		   Data : out Std_logic);
+	end component;
+	
 	component Pseudo0_15 is
   		port ( cout:out std_logic_vector (7 downto 0);
    		 	   enable, clk, reset :in  std_logic);
@@ -126,16 +139,13 @@ architecture DataGen of Data_Generator is
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 begin
-
 		FreqDiv: FrequencyDivider Port Map(SystemClock, Reset, DaClk);
-
-			SqWv: SquareWave Port Map(DaClk, Reset, '1', SqWvClk, A);
-			SD1: SixDigit1 Port Map(B, '1', DaClk, Reset);
-			SD2: SixDigit2 Port Map(C, '1', DaClk, Reset);
-			PRNG1: Pseudo0_15 Port Map(D, '1', DaClk, Reset);
-			PRNG2: Pseudo0_255 Port Map(E, '1', DaClk, Reset);
-			MUXData: MUX_8 Port Map("00000000", A, B, C, "00000000", "00000000", E, "00000000", Control, DataAux);
-			MUXClock: MUX_8 Port Map(DaClk, SqWvClk, DaClk, DaClk, DaClk, DaClk, DaClk, DaClk, Control, DataClock);
-			Regi: Reg Port Map(DataClock, DataAux, Data);
-		
+		SqWv: SquareWave Port Map(DaClk, Reset, '1', SqWvClk, A);
+		SD1: SixDigit1 Port Map(B, '1', DaClk, Reset);
+		SD2: SixDigit2 Port Map(C, '1', DaClk, Reset);
+		PRNG1: Pseudo0_15 Port Map(D, '1', DaClk, Reset);
+		PRNG2: Pseudo0_255 Port Map(E, '1', DaClk, Reset);
+		MUXData: MUX_8 Port Map("00000000", A, B, C, "00000000", "00000000", D, E, Control, DataAux);
+		MUXClock: MUX_8_2 Port Map(DaClk, SqWvClk, DaClk, DaClk, DaClk, DaClk, DaClk, DaClk, Control, DataClock);
+		Regi: Reg Port Map(DataClock, DataAux, Data);
 end DataGen;		

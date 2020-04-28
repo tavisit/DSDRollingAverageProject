@@ -19,15 +19,19 @@ REFRESH_FLOW=1
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=
+HierarchyInformation=data_generator|DataGen|0  
 ShowHide=ShowTopLevel
 Selected=
+
+[SpecTracer]
+WindowVisible=0
 
 [Groups]
 OCTAVIAN=1
 RARES=1
 
 [Files]
+/RollingAverage.vhd=-1
 OCTAVIAN/BITADDER.vhd=-1
 OCTAVIAN/Filter.vhd=-1
 OCTAVIAN/HexConverter.vhd=-1
@@ -37,6 +41,7 @@ OCTAVIAN/NBitAdder.vhd=-1
 OCTAVIAN/ShiftRegister.vhd=-1
 RARES/FrequencyDivider.vhd=-1
 RARES/Mux_8.vhd=-1
+RARES/Mux_8_2.vhd=-1
 RARES/Pseudo0_15.vhd=-1
 RARES/Pseudo0_255.vhd=-1
 RARES/Register.vhd=-1
@@ -44,9 +49,9 @@ RARES/SixDigit1.vhd=-1
 RARES/SixDigit2.vhd=-1
 RARES/SquareWave.vhd=-1
 RARES/Data_Generator.vhd=-1
-/RollingAverage.vhd=-1
 
 [Files.Data]
+.\src\RollingAverage.vhd=VHDL Source Code
 .\src\OCTAVIAN\BITADDER.vhd=VHDL Source Code
 .\src\OCTAVIAN\Filter.vhd=VHDL Source Code
 .\src\OCTAVIAN\HexConverter.vhd=VHDL Source Code
@@ -56,6 +61,7 @@ RARES/Data_Generator.vhd=-1
 .\src\OCTAVIAN\ShiftRegister.vhd=VHDL Source Code
 .\src\RARES\FrequencyDivider.vhd=VHDL Source Code
 .\src\RARES\Mux_8.vhd=VHDL Source Code
+.\src\RARES\Mux_8_2.vhd=VHDL Source Code
 .\src\RARES\Pseudo0_15.vhd=VHDL Source Code
 .\src\RARES\Pseudo0_255.vhd=VHDL Source Code
 .\src\RARES\Register.vhd=VHDL Source Code
@@ -63,8 +69,4 @@ RARES/Data_Generator.vhd=-1
 .\src\RARES\SixDigit2.vhd=VHDL Source Code
 .\src\RARES\SquareWave.vhd=VHDL Source Code
 .\src\RARES\Data_Generator.vhd=VHDL Source Code
-.\src\RollingAverage.vhd=VHDL Source Code
-
-[SpecTracer]
-WindowVisible=0
 

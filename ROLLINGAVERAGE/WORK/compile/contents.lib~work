@@ -1,20 +1,23 @@
-133
-~E 0 "./src/OCTAVIAN/BITADDER.vhd" 28 BITADDER
+140
+~E 1 "./src/OCTAVIAN/BITADDER.vhd" 28 BITADDER
 ~A 1 "./src/OCTAVIAN/BITADDER.vhd" 36 BITADDER
 ~E 1 "./src/RARES/Data_Generator.vhd" 23 Data_Generator
-~E 0 "./src/OCTAVIAN/Filter.vhd" 29 Filter
+~A 1 "./src/RARES/Data_Generator.vhd" 31 DataGen
+~E 1 "./src/OCTAVIAN/Filter.vhd" 29 Filter
 ~A 1 "./src/OCTAVIAN/Filter.vhd" 39 Filter
 ~E 1 "./src/RARES/FrequencyDivider.vhd" 24 FrequencyDivider
 ~A 1 "./src/RARES/FrequencyDivider.vhd" 29 FreqDiv
-~E 0 "./src/OCTAVIAN/HexConverter.vhd" 31 HEXCONVERTER
+~E 1 "./src/OCTAVIAN/HexConverter.vhd" 31 HEXCONVERTER
 ~A 1 "./src/OCTAVIAN/HexConverter.vhd" 42 HEXCONVERTER
-~E 0 "./src/OCTAVIAN/MainRegister.vhd" 31 MainRegister
+~E 1 "./src/OCTAVIAN/MainRegister.vhd" 31 MainRegister
 ~A 1 "./src/OCTAVIAN/MainRegister.vhd" 39 MainRegister
-~E 0 "./src/OCTAVIAN/MUX.vhd" 30 MUX
+~E 1 "./src/OCTAVIAN/MUX.vhd" 30 MUX
 ~A 1 "./src/OCTAVIAN/MUX.vhd" 41 MUX
 ~E 1 "./src/RARES/Mux_8.vhd" 24 Mux_8
 ~A 1 "./src/RARES/Mux_8.vhd" 37 Mux
-~E 0 "./src/OCTAVIAN/NBitAdder.vhd" 30 NBitAdder
+~E 1 "./src/RARES/Mux_8_2.vhd" 24 Mux_8_2
+~A 1 "./src/RARES/Mux_8_2.vhd" 37 Mux_8_2
+~E 1 "./src/OCTAVIAN/NBitAdder.vhd" 30 NBitAdder
 ~A 1 "./src/OCTAVIAN/NBitAdder.vhd" 40 NBITADDER
 ~E 1 "./src/RARES/Pseudo0_15.vhd" 23 Pseudo0_15
 ~A 1 "./src/RARES/Pseudo0_15.vhd" 28 PseudoRNG
@@ -22,9 +25,9 @@
 ~A 1 "./src/RARES/Pseudo0_255.vhd" 28 PseudoRNG
 ~E 1 "./src/RARES/Register.vhd" 23 Reg
 ~A 1 "./src/RARES/Register.vhd" 29 Reg
-~E 0 "./src/RollingAverage.vhd" 28 RollingAverage
+~E 1 "./src/RollingAverage.vhd" 28 RollingAverage
 ~A 1 "./src/RollingAverage.vhd" 49 RollingAverage
-~E 0 "./src/OCTAVIAN/ShiftRegister.vhd" 30 SHIFTREGISTER
+~E 1 "./src/OCTAVIAN/ShiftRegister.vhd" 30 SHIFTREGISTER
 ~A 1 "./src/OCTAVIAN/ShiftRegister.vhd" 38 SHIFTREGISTER
 ~E 1 "./src/RARES/SixDigit1.vhd" 24 SixDigit1
 ~A 1 "./src/RARES/SixDigit1.vhd" 29 Seq

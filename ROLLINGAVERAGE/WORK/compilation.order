@@ -8,6 +8,7 @@
 .\src\OCTAVIAN\ShiftRegister.vhd
 .\src\RARES\FrequencyDivider.vhd
 .\src\RARES\Mux_8.vhd
+.\src\RARES\Mux_8_2.vhd
 .\src\RARES\Pseudo0_15.vhd
 .\src\RARES\Pseudo0_255.vhd
 .\src\RARES\Register.vhd

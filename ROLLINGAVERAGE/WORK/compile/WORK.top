@@ -1,10 +1,1 @@
-FrequencyDivider ENTITY
-Reg ENTITY
-SixDigit2 ENTITY
-RollingAverage ENTITY
-SquareWave ENTITY
-SixDigit1 ENTITY
-Pseudo0_15 ENTITY
-Pseudo0_255 ENTITY
-Mux_8 ENTITY
-BITADDER ENTITY
+Data_Generator ENTITY
