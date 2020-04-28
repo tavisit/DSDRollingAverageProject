@@ -1,9 +1,14 @@
-WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
-MESSAGE "File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd" 
+MESSAGE "File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd" 
 MESSAGE "Compile Entity "Data_Generator"" 
+MESSAGE "Entity `Data_Generator' has been skipped - no difference detected." 
 MESSAGE "Compile Architecture "DataGen" of Entity "Data_Generator"" 
-ERROR COMP96_0015: "';' expected." "C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd" 131 29
-ERROR COMP96_0019: "Keyword 'end' expected." "C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd" 131 29
-ERROR COMP96_0015: "';' expected." "C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd" 132 6
-ERROR COMP96_0016: "Design unit declaration expected." "C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd" 132 13
-FAILURE "Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]" 
+ERROR COMP96_0100: "Actual parameter type in port map does not match the port formal type "A"." "D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd" 138 29
+ERROR COMP96_0100: "Actual parameter type in port map does not match the port formal type "B"." "D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd" 138 36
+ERROR COMP96_0100: "Actual parameter type in port map does not match the port formal type "C"." "D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd" 138 45
+ERROR COMP96_0100: "Actual parameter type in port map does not match the port formal type "D"." "D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd" 138 52
+ERROR COMP96_0100: "Actual parameter type in port map does not match the port formal type "E"." "D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd" 138 59
+ERROR COMP96_0100: "Actual parameter type in port map does not match the port formal type "F"." "D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd" 138 66
+ERROR COMP96_0100: "Actual parameter type in port map does not match the port formal type "G"." "D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd" 138 73
+ERROR COMP96_0100: "Actual parameter type in port map does not match the port formal type "H"." "D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd" 138 80
+ERROR COMP96_0100: "Actual parameter type in port map does not match the port formal type "Data"." "D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd" 138 96
+FAILURE "Compile failure 9 Errors 0 Warnings  Analysis time :  0.0 [s]" 

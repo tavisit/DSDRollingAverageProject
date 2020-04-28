@@ -126,13 +126,9 @@ architecture DataGen of Data_Generator is
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 begin
-	process(SystemClock, Reset)
-	begin
+
 		FreqDiv: FrequencyDivider Port Map(SystemClock, Reset, DaClk);
-	end process;
-		
-	process(DaClk, Reset)
-	begin
+
 			SqWv: SquareWave Port Map(DaClk, Reset, '1', SqWvClk, A);
 			SD1: SixDigit1 Port Map(B, '1', DaClk, Reset);
 			SD2: SixDigit2 Port Map(C, '1', DaClk, Reset);
@@ -141,6 +137,5 @@ begin
 			MUXData: MUX_8 Port Map("00000000", A, B, C, "00000000", "00000000", E, "00000000", Control, DataAux);
 			MUXClock: MUX_8 Port Map(DaClk, SqWvClk, DaClk, DaClk, DaClk, DaClk, DaClk, DaClk, Control, DataClock);
 			Regi: Reg Port Map(DataClock, DataAux, Data);
-	end process;
 		
-end DataGen		
+end DataGen;		

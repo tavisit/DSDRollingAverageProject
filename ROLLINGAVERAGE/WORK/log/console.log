@@ -1,0 +1,224 @@
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+acom -reorder $DSN/src/RARES/Data_Generator.vhd
+# Compile with File Reorder...
+# Error: VLM_0028: Library `work' has been created with an older version of the compiler. Please empty library and recompile all source files again.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+acom -reorder $DSN/src/rollingaverage.vhd $DSN/src/octavian/bitadder.vhd $DSN/src/octavian/filter.vhd $DSN/src/octavian/hexconverter.vhd $DSN/src/octavian/mainregister.vhd $DSN/src/octavian/mux.vhd $DSN/src/octavian/nbitadder.vhd $DSN/src/octavian/shiftregister.vhd $DSN/src/rares/frequencydivider.vhd $DSN/src/rares/mux_8.vhd $DSN/src/rares/pseudo0_15.vhd $DSN/src/rares/pseudo0_255.vhd $DSN/src/rares/register.vhd $DSN/src/rares/sixdigit1.vhd $DSN/src/rares/sixdigit2.vhd $DSN/src/rares/squarewave.vhd $DSN/src/rares/data_generator.vhd
+# Compile with File Reorder...
+# Error: VLM_0028: Library `work' has been created with an older version of the compiler. Please empty library and recompile all source files again.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+acom -reorder $DSN/src/OCTAVIAN/BITADDER.vhd
+# Compile with File Reorder...
+# Error: VLM_0028: Library `work' has been created with an older version of the compiler. Please empty library and recompile all source files again.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+acom -reorder $DSN/src/rollingaverage.vhd $DSN/src/octavian/bitadder.vhd $DSN/src/octavian/filter.vhd $DSN/src/octavian/hexconverter.vhd $DSN/src/octavian/mainregister.vhd $DSN/src/octavian/mux.vhd $DSN/src/octavian/nbitadder.vhd $DSN/src/octavian/shiftregister.vhd $DSN/src/rares/frequencydivider.vhd $DSN/src/rares/mux_8.vhd $DSN/src/rares/pseudo0_15.vhd $DSN/src/rares/pseudo0_255.vhd $DSN/src/rares/register.vhd $DSN/src/rares/sixdigit1.vhd $DSN/src/rares/sixdigit2.vhd $DSN/src/rares/squarewave.vhd $DSN/src/rares/data_generator.vhd
+# Compile with File Reorder...
+# Error: VLM_0028: Library `work' has been created with an older version of the compiler. Please empty library and recompile all source files again.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+# Error: ULM_0018: Library "work" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+acom -reorder $DSN/src/rollingaverage.vhd $DSN/src/octavian/bitadder.vhd $DSN/src/octavian/filter.vhd $DSN/src/octavian/hexconverter.vhd $DSN/src/octavian/mainregister.vhd $DSN/src/octavian/mux.vhd $DSN/src/octavian/nbitadder.vhd $DSN/src/octavian/shiftregister.vhd $DSN/src/rares/frequencydivider.vhd $DSN/src/rares/mux_8.vhd $DSN/src/rares/pseudo0_15.vhd $DSN/src/rares/pseudo0_255.vhd $DSN/src/rares/register.vhd $DSN/src/rares/sixdigit1.vhd $DSN/src/rares/sixdigit2.vhd $DSN/src/rares/squarewave.vhd $DSN/src/rares/data_generator.vhd
+# Compile with File Reorder...
+# Error: VLM_0028: Library `work' has been created with an older version of the compiler. Please empty library and recompile all source files again.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+acom -reorder $DSN/src/RollingAverage.vhd
+# Compile with File Reorder...
+# Error: VLM_0028: Library `work' has been created with an older version of the compiler. Please empty library and recompile all source files again.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+acom -reorder $DSN/src/RollingAverage.vhd
+# Compile with File Reorder...
+# Error: VLM_0028: Library `work' has been created with an older version of the compiler. Please empty library and recompile all source files again.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+acom -reorder $DSN/src/rollingaverage.vhd $DSN/src/octavian/bitadder.vhd $DSN/src/octavian/filter.vhd $DSN/src/octavian/hexconverter.vhd $DSN/src/octavian/mainregister.vhd $DSN/src/octavian/mux.vhd $DSN/src/octavian/nbitadder.vhd $DSN/src/octavian/shiftregister.vhd $DSN/src/rares/frequencydivider.vhd $DSN/src/rares/mux_8.vhd $DSN/src/rares/pseudo0_15.vhd $DSN/src/rares/pseudo0_255.vhd $DSN/src/rares/register.vhd $DSN/src/rares/sixdigit1.vhd $DSN/src/rares/sixdigit2.vhd $DSN/src/rares/squarewave.vhd $DSN/src/rares/data_generator.vhd
+# Compile with File Reorder...
+# Error: VLM_0028: Library `work' has been created with an older version of the compiler. Please empty library and recompile all source files again.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+acom -reorder $DSN/src/RollingAverage.vhd
+# Compile with File Reorder...
+# Error: VLM_0028: Library `work' has been created with an older version of the compiler. Please empty library and recompile all source files again.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+acom -reorder $DSN/src/OCTAVIAN/BITADDER.vhd
+# Compile with File Reorder...
+# Error: VLM_0028: Library `work' has been created with an older version of the compiler. Please empty library and recompile all source files again.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
+# Library Manager: Library "work" contents cleared.
+acom -reorder $DSN/src/rollingaverage.vhd $DSN/src/octavian/bitadder.vhd $DSN/src/octavian/filter.vhd $DSN/src/octavian/hexconverter.vhd $DSN/src/octavian/mainregister.vhd $DSN/src/octavian/mux.vhd $DSN/src/octavian/nbitadder.vhd $DSN/src/octavian/shiftregister.vhd $DSN/src/rares/frequencydivider.vhd $DSN/src/rares/mux_8.vhd $DSN/src/rares/pseudo0_15.vhd $DSN/src/rares/pseudo0_255.vhd $DSN/src/rares/register.vhd $DSN/src/rares/sixdigit1.vhd $DSN/src/rares/sixdigit2.vhd $DSN/src/rares/squarewave.vhd $DSN/src/rares/data_generator.vhd
+# Compile with File Reorder...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RollingAverage.vhd
+# Compile Entity "RollingAverage"
+# Compile Architecture "RollingAverage" of Entity "RollingAverage"
+# Warning: ELAB1_0026: RollingAverage.vhd : (61, 0): There is no default binding for component "Filter".(No entity named "Filter" was found).
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\BITADDER.vhd
+# Compile Entity "BITADDER"
+# Compile Architecture "BITADDER" of Entity "BITADDER"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
+# Compile Entity "Filter"
+# Compile Architecture "Filter" of Entity "Filter"
+# Warning: ELAB1_0026: Filter.vhd : (137, 0): There is no default binding for component "MainRegister".(No entity named "MainRegister" was found).
+# Warning: ELAB1_0026: Filter.vhd : (141, 0): There is no default binding for component "NBitAdder".(No entity named "NBitAdder" was found).
+# Warning: ELAB1_0026: Filter.vhd : (165, 0): There is no default binding for component "MUX".(No entity named "MUX" was found).
+# Warning: ELAB1_0026: Filter.vhd : (168, 0): There is no default binding for component "SHIFTREGISTER".(No entity named "SHIFTREGISTER" was found).
+# Warning: ELAB1_0026: Filter.vhd : (171, 0): There is no default binding for component "HEXCONVERTER".(No entity named "HEXCONVERTER" was found).
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\HexConverter.vhd
+# Compile Entity "HEXCONVERTER"
+# Compile Architecture "HEXCONVERTER" of Entity "HEXCONVERTER"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MainRegister.vhd
+# Compile Entity "MainRegister"
+# Compile Architecture "MainRegister" of Entity "MainRegister"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MUX.vhd
+# Compile Entity "MUX"
+# Compile Architecture "MUX" of Entity "MUX"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\ShiftRegister.vhd
+# Compile Entity "SHIFTREGISTER"
+# Compile Architecture "SHIFTREGISTER" of Entity "SHIFTREGISTER"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\FrequencyDivider.vhd
+# Compile Entity "FrequencyDivider"
+# Compile Architecture "FreqDiv" of Entity "FrequencyDivider"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Mux_8.vhd
+# Compile Entity "Mux_8"
+# Compile Architecture "Mux" of Entity "Mux_8"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Pseudo0_15.vhd
+# Compile Entity "Pseudo0_15"
+# Compile Architecture "PseudoRNG" of Entity "Pseudo0_15"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Pseudo0_255.vhd
+# Compile Entity "Pseudo0_255"
+# Compile Architecture "PseudoRNG" of Entity "Pseudo0_255"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Register.vhd
+# Compile Entity "Reg"
+# Compile Architecture "Reg" of Entity "Reg"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\SixDigit1.vhd
+# Compile Entity "SixDigit1"
+# Compile Architecture "Seq" of Entity "SixDigit1"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\SixDigit2.vhd
+# Compile Entity "SixDigit2"
+# Compile Architecture "Seq" of Entity "SixDigit2"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\SquareWave.vhd
+# Compile Entity "SquareWave"
+# Compile Architecture "SqWv" of Entity "SquareWave"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: Data_Generator.vhd : (131, 29): ';' expected.
+# Error: COMP96_0019: Data_Generator.vhd : (131, 29): Keyword "end" expected.
+# Error: COMP96_0015: Data_Generator.vhd : (132, 6): ';' expected.
+# Error: COMP96_0016: Data_Generator.vhd : (132, 13): Design unit declaration expected.
+# Improper file order detected
+# Automatic file reorder and recompilation required.
+# File reorder and recompilation in progress
+# Top-Level unit detected
+# Entity  =>   FrequencyDivider
+# Entity  =>   Reg
+# Entity  =>   SixDigit2
+# Entity  =>   RollingAverage
+# Entity  =>   SquareWave
+# Entity  =>   SixDigit1
+# Entity  =>   Pseudo0_15
+# Entity  =>   Pseudo0_255
+# Entity  =>   Mux_8
+# Entity  =>   BITADDER
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Entity `Data_Generator' has been skipped - no difference detected.
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: Data_Generator.vhd : (131, 29): ';' expected.
+# Error: COMP96_0019: Data_Generator.vhd : (131, 29): Keyword "end" expected.
+# Error: COMP96_0015: Data_Generator.vhd : (132, 6): ';' expected.
+# Error: COMP96_0016: Data_Generator.vhd : (132, 13): Design unit declaration expected.
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
+# Compile Entity "Filter"
+# Entity `Filter' has been skipped - no difference detected.
+# Compile Architecture "Filter" of Entity "Filter"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RollingAverage.vhd
+# Compile Entity "RollingAverage"
+# Entity `RollingAverage' has been skipped - no difference detected.
+# Compile Architecture "RollingAverage" of Entity "RollingAverage"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  3.0 [s]
+acom $DSN/src/RARES/Data_Generator.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Entity `Data_Generator' has been skipped - no difference detected.
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: Data_Generator.vhd : (131, 29): ';' expected.
+# Error: COMP96_0019: Data_Generator.vhd : (131, 29): Keyword "end" expected.
+# Error: COMP96_0015: Data_Generator.vhd : (132, 6): ';' expected.
+# Error: COMP96_0016: Data_Generator.vhd : (132, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/RARES/Data_Generator.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Entity `Data_Generator' has been skipped - no difference detected.
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: Data_Generator.vhd : (131, 29): ';' expected.
+# Error: COMP96_0019: Data_Generator.vhd : (131, 29): Keyword "end" expected.
+# Error: COMP96_0015: Data_Generator.vhd : (132, 6): ';' expected.
+# Error: COMP96_0016: Data_Generator.vhd : (132, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom $DSN/src/RARES/Data_Generator.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Entity `Data_Generator' has been skipped - no difference detected.
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: Data_Generator.vhd : (133, 21): ';' expected.
+# Error: COMP96_0019: Data_Generator.vhd : (133, 21): Keyword "end" expected.
+# Error: COMP96_0015: Data_Generator.vhd : (141, 6): ';' expected.
+# Error: COMP96_0016: Data_Generator.vhd : (141, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/RARES/Data_Generator.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Entity `Data_Generator' has been skipped - no difference detected.
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: Data_Generator.vhd : (140, 13): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom $DSN/src/RARES/Data_Generator.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Entity `Data_Generator' has been skipped - no difference detected.
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: Data_Generator.vhd : (131, 29): ';' expected.
+# Error: COMP96_0019: Data_Generator.vhd : (131, 29): Keyword "end" expected.
+# Error: COMP96_0015: Data_Generator.vhd : (132, 6): ';' expected.
+# Error: COMP96_0016: Data_Generator.vhd : (132, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/RARES/Data_Generator.vhd
+# Compile...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Entity `Data_Generator' has been skipped - no difference detected.
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0100: Data_Generator.vhd : (138, 29): Actual parameter type in port map does not match the port formal type "A".
+# Error: COMP96_0100: Data_Generator.vhd : (138, 36): Actual parameter type in port map does not match the port formal type "B".
+# Error: COMP96_0100: Data_Generator.vhd : (138, 45): Actual parameter type in port map does not match the port formal type "C".
+# Error: COMP96_0100: Data_Generator.vhd : (138, 52): Actual parameter type in port map does not match the port formal type "D".
+# Error: COMP96_0100: Data_Generator.vhd : (138, 59): Actual parameter type in port map does not match the port formal type "E".
+# Error: COMP96_0100: Data_Generator.vhd : (138, 66): Actual parameter type in port map does not match the port formal type "F".
+# Error: COMP96_0100: Data_Generator.vhd : (138, 73): Actual parameter type in port map does not match the port formal type "G".
+# Error: COMP96_0100: Data_Generator.vhd : (138, 80): Actual parameter type in port map does not match the port formal type "H".
+# Error: COMP96_0100: Data_Generator.vhd : (138, 96): Actual parameter type in port map does not match the port formal type "Data".
+# Compile failure 9 Errors 0 Warnings  Analysis time :  0.0 [s]

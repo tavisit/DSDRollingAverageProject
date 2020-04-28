@@ -13,5 +13,5 @@ i<>.\src\RARES\Register.vhd
 i<>.\src\RARES\SixDigit1.vhd
 i<>.\src\RARES\SixDigit2.vhd
 i<>.\src\RARES\SquareWave.vhd
-i<>.\src\RollingAverage.vhd
 i<>.\src\Data_Generator.vhd
+i<>.\src\RollingAverage.vhd
