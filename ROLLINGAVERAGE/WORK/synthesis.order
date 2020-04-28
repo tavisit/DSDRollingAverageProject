@@ -7,3 +7,13 @@ i<>.\src\OCTAVIAN\ShiftRegister.vhd
 i<>.\src\BITADDER.vhd
 i<>.\src\GATES.vhd
 i<>.\src\DFLIPFLOP.vhd
+i<>.\src\Frequency Divider.vhd
+i<>.\src\FrequencyDividerr.vhd
+i<>.\src\FreqDivTest.vhd
+i<>.\src\Mux_8.vhd
+i<>.\src\SixDigit1.vhd
+i<>.\src\LFSR.vhd
+i<>.\src\Pseudo0_15.vhd
+i<>.\src\SquareWave.vhd
+i<>.\src\Register.vhd
+i<>.\src\SixDigit2(WIP).vhd

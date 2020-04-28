@@ -1,7 +1,7 @@
 [Project]
 Current Flow=Multivendor
 VCS=0
-version=1
+version=4
 Current Config=compile
 
 [Configurations]
@@ -12,26 +12,83 @@ WORK=.\WORK.lib
 
 [$LibMap$]
 WORK=.
-Active_lib=
+Active_lib=VIRTEX4
+xilinxun=VIRTEX4
+UnlinkedDesignLibrary=VIRTEX4
+DESIGNS=VIRTEX4
 
 [Settings]
 FLOW_TYPE=HDL
 LANGUAGE=VHDL
 REFRESH_FLOW=1
-SYNTH_TOOL=<none>
-IMPL_TOOL=<none>
-FAMILY=
+SYNTH_TOOL=
+IMPL_TOOL=
+FAMILY=Xilinx14x VIRTEX4
 FLOWTOOLS=ONLY_IMPL
 FUNC_LIB=WORK
-
-[IMPLEMENTATION]
-UCF=
+CSYNTH_STATUS=NONE
+CSYNTH_TOOL=
+PHYSSYNTH_TOOL=MV_PLANAHEAD146
+PHYSSYNTH_STATUS=NONE
+SYNTH_STATUS=NONE
+IMPL_STATUS=NONE
+PCBINTERFACE_STATUS=NONE
+ON_SERVERFARM_SIM=0
+FUNCTIONAL_SIMULATION_STATUS=
+POSTSYNTHESIS_SIMULATION_STATUS=
+TIMING_SIMULATION_STATUS=
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=filter|filter|0   
+HierarchyInformation=pseudo0_255|PseudoRNG|0   
 ShowHide=ShowTopLevel
 Selected=
+
+[Folders]
+Name0=Event Lists
+Directory0=C:\Users\manra\Documents\GitHub\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\
+Extension0=lst
+Name1=Logs
+Directory1=C:\Users\manra\Documents\GitHub\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\
+Extension1=log;htm;xml;txt
+Name2=Waveforms
+Directory2=C:\Users\manra\Documents\GitHub\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\
+Extension2=asdb;awc;asdbc;asdbe
+Name3=Makefiles
+Directory3=C:\Users\manra\Documents\GitHub\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\
+Extension3=mak
+Name4=Memory
+Directory4=C:\Users\manra\Documents\GitHub\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=C:\Users\manra\Documents\GitHub\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\
+Extension5=dll
+Name6=PDF
+Directory6=C:\Users\manra\Documents\GitHub\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\
+Extension6=pdf
+Name7=HTML
+Directory7=C:\Users\manra\Documents\GitHub\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\
+Extension7=htm;html
+
+[SpecTracer]
+WindowVisible=0
+
+[PHYS_SYNTHESIS]
+FAMILY=
+DEVICE=
+SPEED=
+SCRIPTS_COPIED=0
+
+[PCB_INTERFACE]
+FAMILY=
+
+[SYNTHESIS]
+TOPLEVEL=
+
+[IMPLEMENTATION]
+FLOW_STEPS_RESET=1
 
 [Groups]
 OCTAVIAN=1
@@ -45,6 +102,14 @@ OCTAVIAN/HexConverter.vhd=-1
 OCTAVIAN/MainRegister.vhd=-1
 OCTAVIAN/MUX.vhd=-1
 OCTAVIAN/ShiftRegister.vhd=-1
+RARES/SquareWave.vhd=-1
+RARES/FrequencyDivider.vhd=-1
+RARES/Pseudo0_15.vhd=-1
+RARES/Pseudo0_255.vhd=-1
+RARES/SixDigit1.vhd=-1
+RARES/SixDigit2.vhd=-1
+RARES/Mux_8.vhd=-1
+RARES/Register.vhd=-1
 
 [Files.Data]
 .\src\OCTAVIAN\BITADDER.vhd=VHDL Source Code
@@ -54,4 +119,12 @@ OCTAVIAN/ShiftRegister.vhd=-1
 .\src\OCTAVIAN\MainRegister.vhd=VHDL Source Code
 .\src\OCTAVIAN\MUX.vhd=VHDL Source Code
 .\src\OCTAVIAN\ShiftRegister.vhd=VHDL Source Code
+.\src\RARES\SquareWave.vhd=VHDL Source Code
+.\src\RARES\FrequencyDivider.vhd=VHDL Source Code
+.\src\RARES\Pseudo0_15.vhd=VHDL Source Code
+.\src\RARES\Pseudo0_255.vhd=VHDL Source Code
+.\src\RARES\SixDigit1.vhd=VHDL Source Code
+.\src\RARES\SixDigit2.vhd=VHDL Source Code
+.\src\RARES\Mux_8.vhd=VHDL Source Code
+.\src\RARES\Register.vhd=VHDL Source Code
 

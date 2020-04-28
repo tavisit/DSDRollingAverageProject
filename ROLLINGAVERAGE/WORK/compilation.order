@@ -5,3 +5,11 @@
 .\src\OCTAVIAN\MainRegister.vhd
 .\src\OCTAVIAN\MUX.vhd
 .\src\OCTAVIAN\ShiftRegister.vhd
+.\src\RARES\SquareWave.vhd
+.\src\RARES\FrequencyDivider.vhd
+.\src\RARES\Pseudo0_15.vhd
+.\src\RARES\Pseudo0_255.vhd
+.\src\RARES\SixDigit1.vhd
+.\src\RARES\SixDigit2.vhd
+.\src\RARES\Mux_8.vhd
+.\src\RARES\Register.vhd

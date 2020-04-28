@@ -1,23 +1,27 @@
-elbread.dll ver. 1.0.5.365 Mon Apr 20 17:04:42 2020
+Active-HDL 11.1.262.7351 2020-04-28 12:56:26
+
+Elaboration top modules:
+Architecture                  PseudoRNG(Pseudo0_255)
 
 
-----------------------------------------
-Entity         | Architecture  | Library
-----------------------------------------
-filter         | filter        | WORK
-mainregister   | mainregister  | work
-nbitadder      | nbitadder     | work
-mux            | mux           | work
-shiftregister  | shiftregister | work
-hexconverter   | hexconverter  | work
-----------------------------------------
+--------------------------------------------------------------------------------------------
+Entity      | Architecture | Library | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------
+Pseudo0_255 | PseudoRNG    | work    |      | 11.1.262.7351 (Windows) | -O3
+--------------------------------------------------------------------------------------------
 
------------------------------
-Package             | Library
------------------------------
-standard            | std
-std_logic_1164      | ieee
-std_logic_arith     | ieee
-numeric_std         | ieee
-std_logic_unsigned  | ieee
------------------------------
+--------------------------------------------------------------------------------------------
+VHDL Package               | Library | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------
+standard                   | std     |      |                         | <unavailable>
+TEXTIO                     | std     |      |                         | <unavailable>
+std_logic_1164             | ieee    |      |                         | <unavailable>
+--------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
+Library                    | Comment
+--------------------------------------------------------------------------------------------
+ieee                       | Standard IEEE packages library
+std                        | Standard VHDL library
+work                       | None
+--------------------------------------------------------------------------------------------

@@ -4,9 +4,11 @@ Version=6.3
 work=.\WORK\WORK.adf
 [Browser]
 sort=order
-mode=none
+mode=asc
 [Order]
 order=1
 macro=
 [Expand]
 work=1
+[Settings]
+Active=work
