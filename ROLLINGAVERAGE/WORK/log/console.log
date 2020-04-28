@@ -1,0 +1,51 @@
+# Design Explorer: Shortcut to "D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\ROLLINGAVERAGE.aws" design added.
+acom -reorder $DSN/src/rollingaverage.vhd $DSN/src/octavian/bitadder.vhd $DSN/src/octavian/filter.vhd $DSN/src/octavian/hexconverter.vhd $DSN/src/octavian/mainregister.vhd $DSN/src/octavian/mux.vhd $DSN/src/octavian/nbitadder.vhd $DSN/src/octavian/shiftregister.vhd "$DSN/src/rares/frequency divider.vhd" $DSN/src/rares/frequencydivider.vhd $DSN/src/rares/mux_8.vhd $DSN/src/rares/pseudo0_15.vhd $DSN/src/rares/pseudo0_255.vhd $DSN/src/rares/register.vhd $DSN/src/rares/sixdigit1.vhd $DSN/src/rares/sixdigit2.vhd $DSN/src/rares/squarewave.vhd
+# Compile with File Reorder...
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RollingAverage.vhd
+# Compile Entity "RollingAverage"
+# Compile Architecture "RollingAverage" of Entity "RollingAverage"
+# Warning: ELAB1_0026: RollingAverage.vhd : (61, 0): There is no default binding for component "Filter".(No entity named "Filter" was found).
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\BITADDER.vhd
+# Compile Entity "BITADDER"
+# Compile Architecture "BITADDER" of Entity "BITADDER"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
+# Compile Entity "Filter"
+# Compile Architecture "Filter" of Entity "Filter"
+# Warning: ELAB1_0026: Filter.vhd : (137, 0): There is no default binding for component "MainRegister".(No entity named "MainRegister" was found).
+# Warning: ELAB1_0026: Filter.vhd : (141, 0): There is no default binding for component "NBitAdder".(No entity named "NBitAdder" was found).
+# Warning: ELAB1_0026: Filter.vhd : (165, 0): There is no default binding for component "MUX".(No entity named "MUX" was found).
+# Warning: ELAB1_0026: Filter.vhd : (168, 0): There is no default binding for component "SHIFTREGISTER".(No entity named "SHIFTREGISTER" was found).
+# Warning: ELAB1_0026: Filter.vhd : (171, 0): There is no default binding for component "HEXCONVERTER".(No entity named "HEXCONVERTER" was found).
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\HexConverter.vhd
+# Compile Entity "HEXCONVERTER"
+# Compile Architecture "HEXCONVERTER" of Entity "HEXCONVERTER"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MainRegister.vhd
+# Compile Entity "MainRegister"
+# Compile Architecture "MainRegister" of Entity "MainRegister"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MUX.vhd
+# Compile Entity "MUX"
+# Compile Architecture "MUX" of Entity "MUX"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Compile Architecture "NBITADDER" of Entity "NBITADDER"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\ShiftRegister.vhd
+# Compile Entity "SHIFTREGISTER"
+# Compile Architecture "SHIFTREGISTER" of Entity "SHIFTREGISTER"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Frequency Divider.vhd
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\FrequencyDivider.vhd
+# Error: COMP96_0003: Source file is empty.
+# Compile Entity "FrequencyDivider"
+# Compile Architecture "FreqDiv" of Entity "FrequencyDivider"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Mux_8.vhd
+# Compile Entity "Mux_8"
+# Compile Architecture "Mux" of Entity "Mux_8"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Pseudo0_15.vhd
+# Compile Entity "Pseudo0_15"
+# Compile Architecture "PseudoRNG" of Entity "Pseudo0_15"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Pseudo0_255.vhd
+# Compile Entity "Pseudo0_255"
+# Compile Architecture "PseudoRNG" of Entity "Pseudo0_255"
+# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Register.vhd
+# Compile Entity "Reg"
+# Compile Architecture "Reg" of Entity "Reg"
+# File: D:\GitHub

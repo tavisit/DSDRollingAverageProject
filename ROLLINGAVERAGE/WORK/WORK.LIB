@@ -1,0 +1,172 @@
+timestamp=1588070180331
+
+[bitadder]
+A/bitadder=A/BITADDER 21|./src/OCTAVIAN/BITADDER.vhd|36|1*3717
+B/bitadder=3*537061
+H/bitadder=0*1681241
+R=./src/OCTAVIAN/BITADDER.vhd|28
+V=0*1682077
+
+[filter]
+A/filter=A/Filter 21|./src/OCTAVIAN/Filter.vhd|39|1*50276
+B/filter=3*597164
+H/filter=0*1760902
+R=./src/OCTAVIAN/Filter.vhd|29
+V=0*1703575
+
+[frequencydivider]
+A/freqdiv=A/FreqDiv 21|./src/RARES/FrequencyDivider.vhd|29|1*33639
+B/freqdiv=3*573760
+H/freqdiv=0*1732506
+R=./src/RARES/FrequencyDivider.vhd|24
+V=0*1733759
+
+[hexconverter]
+A/hexconverter=A/HEXCONVERTER 21|./src/OCTAVIAN/HexConverter.vhd|42|1*18206
+B/hexconverter=3*543230
+H/hexconverter=0*1706392
+R=./src/OCTAVIAN/HexConverter.vhd|31
+V=0*1711573
+
+[mainregister]
+A/mainregister=A/MainRegister 21|./src/OCTAVIAN/MainRegister.vhd|39|1*23875
+B/mainregister=3*561123
+H/mainregister=0*1714130
+R=./src/OCTAVIAN/MainRegister.vhd|31
+V=0*1715490
+
+[mux]
+A/mux=A/MUX 21|./src/OCTAVIAN/MUX.vhd|41|1*25649
+B/mux=3*563391
+H/mux=0*1717217
+R=./src/OCTAVIAN/MUX.vhd|30
+V=0*1718971
+
+[mux_8]
+A/mux=A/Mux 21|./src/RARES/Mux_8.vhd|37|1*35034
+B/mux=3*575087
+H/mux=0*1734760
+R=./src/RARES/Mux_8.vhd|24
+V=0*1737121
+
+[nbitadder]
+A/nbitadder=A/NBITADDER 21|./src/OCTAVIAN/NBitAdder.vhd|40|1*28087
+B/nbitadder=3*565650
+H/nbitadder=0*1722493
+R=./src/OCTAVIAN/NBitAdder.vhd|30
+V=0*1726539
+
+[pseudo0_15]
+A/pseudorng=A/PseudoRNG 21|./src/RARES/Pseudo0_15.vhd|28|1*38318
+B/pseudorng=3*577454
+H/pseudorng=0*1742423
+R=./src/RARES/Pseudo0_15.vhd|23
+V=0*1744403
+
+[pseudo0_255]
+A/pseudorng=A/PseudoRNG 21|./src/RARES/Pseudo0_255.vhd|28|1*40375
+B/pseudorng=3*581011
+H/pseudorng=0*1745573
+R=./src/RARES/Pseudo0_255.vhd|23
+V=0*1747567
+
+[reg]
+A/reg=A/Reg 21|./src/RARES/Register.vhd|29|1*42434
+B/reg=3*584568
+H/reg=0*1748733
+R=./src/RARES/Register.vhd|23
+V=0*1749632
+
+[rollingaverage]
+A/rollingaverage=A/RollingAverage 21|./src/RollingAverage.vhd|49|1*64560
+H/rollingaverage=0*1780301
+R=./src/RollingAverage.vhd|28
+V=0*1678612
+
+[shiftregister]
+A/shiftregister=A/SHIFTREGISTER 21|./src/OCTAVIAN/ShiftRegister.vhd|38|1*31173
+B/shiftregister=3*571143
+H/shiftregister=0*1728949
+R=./src/OCTAVIAN/ShiftRegister.vhd|30
+V=0*1730474
+
+[sixdigit1]
+A/seq=A/Seq 21|./src/RARES/SixDigit1.vhd|29|1*43840
+B/seq=3*585146
+H/seq=0*1751091
+R=./src/RARES/SixDigit1.vhd|24
+V=0*1753082
+
+[sixdigit2]
+A/seq=A/Seq 21|./src/RARES/SixDigit2.vhd|29|1*45886
+B/seq=3*588925
+H/seq=0*1754251
+R=./src/RARES/SixDigit2.vhd|24
+V=0*1756242
+
+[squarewave]
+A/sqwv=A/SqWv 21|./src/RARES/SquareWave.vhd|30|1*47932
+B/sqwv=3*592704
+H/sqwv=0*1757483
+R=./src/RARES/SquareWave.vhd|24
+V=0*1759962
+
+[~A]
+./src/OCTAVIAN/BITADDER.vhd~BITADDER=0*1680934*1681165
+./src/OCTAVIAN/BITADDER.vhd~BITADDERBITADDER=0*1681332*1681510
+./src/OCTAVIAN/Filter.vhd~Filter=0*1682619*1683038
+./src/OCTAVIAN/Filter.vhd~FilterFilter=0*1777453*1780223
+./src/OCTAVIAN/HexConverter.vhd~HEXCONVERTER=0*1705890*1706308
+./src/OCTAVIAN/HexConverter.vhd~HEXCONVERTERHEXCONVERTER=0*1706491*1710493
+./src/OCTAVIAN/MUX.vhd~MUX=0*1716749*1717151
+./src/OCTAVIAN/MUX.vhd~MUXMUX=0*1717298*1717732
+./src/OCTAVIAN/MainRegister.vhd~MainRegister=0*1713717*1714046
+./src/OCTAVIAN/MainRegister.vhd~MainRegisterMainRegister=0*1714229*1714683
+./src/OCTAVIAN/NBitAdder.vhd~NBITADDERNBITADDER=0*1724799*1725392
+./src/OCTAVIAN/NBitAdder.vhd~NBitAdder=0*1721995*1722415
+./src/OCTAVIAN/ShiftRegister.vhd~SHIFTREGISTER=0*1728529*1728863
+./src/OCTAVIAN/ShiftRegister.vhd~SHIFTREGISTERSHIFTREGISTER=0*1729050*1729580
+./src/RARES/FrequencyDivider.vhd~FreqDivFrequencyDivider=0*1732759*1733185
+./src/RARES/FrequencyDivider.vhd~FrequencyDivider=0*1732132*1732417
+./src/RARES/Mux_8.vhd~MuxMux_8=0*1734842*1735286
+./src/RARES/Mux_8.vhd~Mux_8=0*1734134*1734693
+./src/RARES/Pseudo0_15.vhd~Pseudo0_15=0*1742108*1742346
+./src/RARES/Pseudo0_15.vhd~PseudoRNGPseudo0_15=0*1743170*1743754
+./src/RARES/Pseudo0_255.vhd~Pseudo0_255=0*1745253*1745494
+./src/RARES/Pseudo0_255.vhd~PseudoRNGPseudo0_255=0*1746320*1746911
+./src/RARES/Register.vhd~Reg=0*1748419*1748665
+./src/RARES/Register.vhd~RegReg=0*1748814*1748985
+./src/RARES/SixDigit1.vhd~SeqSixDigit1=0*1751826*1752446
+./src/RARES/SixDigit1.vhd~SixDigit1=0*1750781*1751016
+./src/RARES/SixDigit2.vhd~SeqSixDigit2=0*1754986*1755606
+./src/RARES/SixDigit2.vhd~SixDigit2=0*1753930*1754176
+./src/RARES/SquareWave.vhd~SqWvSquareWave=0*1758384*1759232
+./src/RARES/SquareWave.vhd~SquareWave=0*1757090*1757406
+./src/RollingAverage.vhd~RollingAverage=0*1672845*1673274
+./src/RollingAverage.vhd~RollingAverageRollingAverage=0*1783766*1784382
+ModifyID=122
+Version=73
+
+[~MFT]
+0=139|0WORK.mgf|1784382|23573
+1=19|1WORK.mgf|64560|16919
+3=16|3WORK.mgf|597164|5462
+
+[~U]
+bitadder=BITADDER 11|0*1681594|0*1681796
+filter=Filter 11|0*1702509|0*1702817
+frequencydivider=FrequencyDivider 11|0*1733281|0*1733472
+hexconverter=HEXCONVERTER 11|0*1710589|0*1710859
+mainregister=MainRegister 11|0*1714779|0*1715003
+mux=MUX 11|0*1717801|0*1718084
+mux_8=Mux_8 11|0*1735356|0*1735750
+nbitadder=NBitAdder 11|0*1725479|0*1725773
+pseudo0_15=Pseudo0_15 11|0*1743840|0*1744042
+pseudo0_255=Pseudo0_255 11|0*1746999|0*1747204
+reg=Reg 11|0*1749056|0*1749219
+rollingaverage=RollingAverage 11|0*1677527|0*1677860
+shiftregister=SHIFTREGISTER 11|0*1729679|0*1729913
+sixdigit1=SixDigit1 11|0*1752524|0*1752723
+sixdigit2=SixDigit2 11|0*1755684|0*1755883
+squarewave=SquareWave 11|0*1759313|0*1759546
+

@@ -1,0 +1,16 @@
+i<>.\src\OCTAVIAN\BITADDER.vhd
+i<>.\src\OCTAVIAN\Filter.vhd
+i<>.\src\OCTAVIAN\HexConverter.vhd
+i<>.\src\OCTAVIAN\MainRegister.vhd
+i<>.\src\OCTAVIAN\MUX.vhd
+i<>.\src\OCTAVIAN\NBitAdder.vhd
+i<>.\src\OCTAVIAN\ShiftRegister.vhd
+i<>.\src\RARES\FrequencyDivider.vhd
+i<>.\src\RARES\Mux_8.vhd
+i<>.\src\RARES\Pseudo0_15.vhd
+i<>.\src\RARES\Pseudo0_255.vhd
+i<>.\src\RARES\Register.vhd
+i<>.\src\RARES\SixDigit1.vhd
+i<>.\src\RARES\SixDigit2.vhd
+i<>.\src\RARES\SquareWave.vhd
+i<>.\src\RollingAverage.vhd
