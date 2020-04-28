@@ -23,7 +23,7 @@ library ieee;
 entity Pseudo0_255 is
   port ( cout:out std_logic_vector (7 downto 0);
    		 enable, clk, reset :in  std_logic);                
-end entity;
+end Pseudo0_255;
 
 architecture PseudoRNG of Pseudo0_255 is
     signal count :std_logic_vector (7 downto 0) := "11101100";

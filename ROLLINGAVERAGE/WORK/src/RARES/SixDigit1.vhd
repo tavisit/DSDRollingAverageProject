@@ -24,7 +24,7 @@ use ieee.std_logic_1164.all;
 entity SixDigit1 is
   port ( cout:out std_logic_vector (7 downto 0);
    		 enable, clk, reset :in  std_logic);
-end entity;
+end SixDigit1;
 
 architecture Seq of SixDigit1 is
     signal count :std_logic_vector (7 downto 0) := "00000000";

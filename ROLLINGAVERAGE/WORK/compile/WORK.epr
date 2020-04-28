@@ -1,18 +1,2 @@
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RollingAverage.vhd" WORK 2 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\BITADDER.vhd" WORK 1 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd" WORK 2 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\HexConverter.vhd" WORK 1 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MainRegister.vhd" WORK 1 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MUX.vhd" WORK 1 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd" WORK 1 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\ShiftRegister.vhd" WORK 1 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Frequency Divider.vhd" WORK 0 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\FrequencyDivider.vhd" WORK 1 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Mux_8.vhd" WORK 1 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Pseudo0_15.vhd" WORK 1 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Pseudo0_255.vhd" WORK 1 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Register.vhd" WORK 1 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\SixDigit1.vhd" WORK 1 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\SixDigit2.vhd" WORK 1 0 0
-"D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\SquareWave.vhd" WORK 1 0 0
+"C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd" VHDL work 0 0 0 -02
 . . 0 0 0

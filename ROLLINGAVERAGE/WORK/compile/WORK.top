@@ -1,10 +1,1 @@
-Pseudo0_255 ENTITY
-SixDigit1 ENTITY
-SquareWave ENTITY
-RollingAverage ENTITY
-SixDigit2 ENTITY
-Reg ENTITY
-Mux_8 ENTITY
 Pseudo0_15 ENTITY
-FrequencyDivider ENTITY
-BITADDER ENTITY
