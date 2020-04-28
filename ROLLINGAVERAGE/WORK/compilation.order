@@ -14,3 +14,4 @@
 .\src\RARES\SixDigit1.vhd
 .\src\RARES\SixDigit2.vhd
 .\src\RARES\SquareWave.vhd
+.\src\RARES\Data_Generator.vhd

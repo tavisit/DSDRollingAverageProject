@@ -1,10 +1,10 @@
 [Configurations]
-compile=WORK
+compile=work
 
 [Project]
 Current Config=compile
 Current Flow=Multivendor
-version=1
+version=4
 
 [Library]
 WORK=.\WORK.LIB
@@ -19,7 +19,7 @@ REFRESH_FLOW=1
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=
+HierarchyInformation=pseudo0_15|PseudoRNG|0 
 ShowHide=ShowTopLevel
 Selected=
 
@@ -45,6 +45,7 @@ RARES/Register.vhd=-1
 RARES/SixDigit1.vhd=-1
 RARES/SixDigit2.vhd=-1
 RARES/SquareWave.vhd=-1
+RARES/Data_Generator.vhd=-1
 
 [Files.Data]
 .\src\RollingAverage.vhd=VHDL Source Code
@@ -64,4 +65,7 @@ RARES/SquareWave.vhd=-1
 .\src\RARES\SixDigit1.vhd=VHDL Source Code
 .\src\RARES\SixDigit2.vhd=VHDL Source Code
 .\src\RARES\SquareWave.vhd=VHDL Source Code
+.\src\RARES\Data_Generator.vhd=VHDL Source Code
 
+[SpecTracer]
+WindowVisible=0

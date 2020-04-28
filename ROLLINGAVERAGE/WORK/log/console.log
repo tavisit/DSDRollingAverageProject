@@ -1,51 +1,198 @@
-# Design Explorer: Shortcut to "D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\ROLLINGAVERAGE.aws" design added.
-acom -reorder $DSN/src/rollingaverage.vhd $DSN/src/octavian/bitadder.vhd $DSN/src/octavian/filter.vhd $DSN/src/octavian/hexconverter.vhd $DSN/src/octavian/mainregister.vhd $DSN/src/octavian/mux.vhd $DSN/src/octavian/nbitadder.vhd $DSN/src/octavian/shiftregister.vhd "$DSN/src/rares/frequency divider.vhd" $DSN/src/rares/frequencydivider.vhd $DSN/src/rares/mux_8.vhd $DSN/src/rares/pseudo0_15.vhd $DSN/src/rares/pseudo0_255.vhd $DSN/src/rares/register.vhd $DSN/src/rares/sixdigit1.vhd $DSN/src/rares/sixdigit2.vhd $DSN/src/rares/squarewave.vhd
-# Compile with File Reorder...
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RollingAverage.vhd
-# Compile Entity "RollingAverage"
-# Compile Architecture "RollingAverage" of Entity "RollingAverage"
-# Warning: ELAB1_0026: RollingAverage.vhd : (61, 0): There is no default binding for component "Filter".(No entity named "Filter" was found).
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\BITADDER.vhd
-# Compile Entity "BITADDER"
-# Compile Architecture "BITADDER" of Entity "BITADDER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
-# Compile Entity "Filter"
-# Compile Architecture "Filter" of Entity "Filter"
-# Warning: ELAB1_0026: Filter.vhd : (137, 0): There is no default binding for component "MainRegister".(No entity named "MainRegister" was found).
-# Warning: ELAB1_0026: Filter.vhd : (141, 0): There is no default binding for component "NBitAdder".(No entity named "NBitAdder" was found).
-# Warning: ELAB1_0026: Filter.vhd : (165, 0): There is no default binding for component "MUX".(No entity named "MUX" was found).
-# Warning: ELAB1_0026: Filter.vhd : (168, 0): There is no default binding for component "SHIFTREGISTER".(No entity named "SHIFTREGISTER" was found).
-# Warning: ELAB1_0026: Filter.vhd : (171, 0): There is no default binding for component "HEXCONVERTER".(No entity named "HEXCONVERTER" was found).
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\HexConverter.vhd
-# Compile Entity "HEXCONVERTER"
-# Compile Architecture "HEXCONVERTER" of Entity "HEXCONVERTER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MainRegister.vhd
-# Compile Entity "MainRegister"
-# Compile Architecture "MainRegister" of Entity "MainRegister"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MUX.vhd
-# Compile Entity "MUX"
-# Compile Architecture "MUX" of Entity "MUX"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
-# Compile Entity "NBitAdder"
-# Compile Architecture "NBITADDER" of Entity "NBITADDER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\ShiftRegister.vhd
-# Compile Entity "SHIFTREGISTER"
-# Compile Architecture "SHIFTREGISTER" of Entity "SHIFTREGISTER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Frequency Divider.vhd
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\FrequencyDivider.vhd
-# Error: COMP96_0003: Source file is empty.
-# Compile Entity "FrequencyDivider"
-# Compile Architecture "FreqDiv" of Entity "FrequencyDivider"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Mux_8.vhd
-# Compile Entity "Mux_8"
-# Compile Architecture "Mux" of Entity "Mux_8"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Pseudo0_15.vhd
+acom -reorder -O3 -e 100 -work WORK -2002  $dsn/src/RARES/Pseudo0_15.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Pseudo0_15.vhd
 # Compile Entity "Pseudo0_15"
 # Compile Architecture "PseudoRNG" of Entity "Pseudo0_15"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Pseudo0_255.vhd
+# Top-level unit(s) detected:
+# Entity => Pseudo0_15
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Pseudo0_255.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Pseudo0_255.vhd
 # Compile Entity "Pseudo0_255"
 # Compile Architecture "PseudoRNG" of Entity "Pseudo0_255"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Register.vhd
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/SixDigit1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/SixDigit1.vhd
+# Compile Entity "SixDigit1"
+# Compile Architecture "Seq" of Entity "SixDigit1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/FrequencyDivider.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/FrequencyDivider.vhd
+# Compile Entity "FrequencyDivider"
+# Compile Architecture "FreqDiv" of Entity "FrequencyDivider"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Mux_8.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Mux_8.vhd
+# Compile Entity "Mux_8"
+# Compile Architecture "Mux" of Entity "Mux_8"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Register.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Register.vhd
 # Compile Entity "Reg"
 # Compile Architecture "Reg" of Entity "Reg"
-# File: D:\GitHub
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/FrequencyDivider.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/FrequencyDivider.vhd
+# Compile Entity "FrequencyDivider"
+# Compile Architecture "FreqDiv" of Entity "FrequencyDivider"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/SixDigit2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/SixDigit2.vhd
+# Compile Entity "SixDigit2"
+# Compile Architecture "Seq" of Entity "SixDigit2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/SquareWave.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/SquareWave.vhd
+# Compile Entity "SquareWave"
+# Compile Architecture "SqWv" of Entity "SquareWave"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Data_Generator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (27, 10): ')' expected.
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (27, 10): ';' expected.
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (27, 12): Keyword 'end' expected.
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (27, 12): ';' expected.
+# Error: COMP96_0016: RARES/Data_Generator.vhd : (27, 16): Design unit declaration expected.
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (109, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: RARES/Data_Generator.vhd : (109, 9): Design unit declaration expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Data_Generator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (109, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: RARES/Data_Generator.vhd : (109, 9): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Data_Generator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (131, 29): ';' expected.
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (131, 29): Keyword 'end' expected.
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (132, 6): ';' expected.
+# Error: COMP96_0016: RARES/Data_Generator.vhd : (132, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Data_Generator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (131, 29): ';' expected.
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (131, 29): Keyword 'end' expected.
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (132, 6): ';' expected.
+# Error: COMP96_0016: RARES/Data_Generator.vhd : (132, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Data_Generator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (132, 29): ';' expected.
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (132, 29): Keyword 'end' expected.
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (133, 6): ';' expected.
+# Error: COMP96_0016: RARES/Data_Generator.vhd : (133, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Data_Generator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (132, 29): ';' expected.
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (132, 29): Keyword 'end' expected.
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (133, 6): ';' expected.
+# Error: COMP96_0016: RARES/Data_Generator.vhd : (133, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Data_Generator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (132, 29): ';' expected.
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (132, 29): Keyword 'end' expected.
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (137, 21): ';' expected.
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (137, 21): Keyword 'end' expected.
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (142, 6): ';' expected.
+# Error: COMP96_0016: RARES/Data_Generator.vhd : (142, 13): Design unit declaration expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Data_Generator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (109, 11): Keyword 'begin' expected.
+# Error: COMP96_0016: RARES/Data_Generator.vhd : (110, 2): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Data_Generator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (132, 29): ';' expected.
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (132, 29): Keyword 'end' expected.
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (133, 6): ';' expected.
+# Error: COMP96_0016: RARES/Data_Generator.vhd : (133, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Data_Generator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (132, 3): Keyword 'end' expected.
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (133, 6): ';' expected.
+# Error: COMP96_0016: RARES/Data_Generator.vhd : (133, 13): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Data_Generator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (132, 29): ';' expected.
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (132, 29): Keyword 'end' expected.
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (133, 6): ';' expected.
+# Error: COMP96_0016: RARES/Data_Generator.vhd : (133, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Data_Generator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (131, 29): ';' expected.
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (131, 29): Keyword 'end' expected.
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (132, 6): ';' expected.
+# Error: COMP96_0016: RARES/Data_Generator.vhd : (132, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Data_Generator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (131, 29): ';' expected.
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (131, 29): Keyword 'end' expected.
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (132, 6): ';' expected.
+# Error: COMP96_0016: RARES/Data_Generator.vhd : (132, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/src/RARES/Data_Generator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/manra/Documents/GitHub/DSDRollingAverageProject/ROLLINGAVERAGE/WORK/src/RARES/Data_Generator.vhd
+# Compile Entity "Data_Generator"
+# Compile Architecture "DataGen" of Entity "Data_Generator"
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (131, 29): ';' expected.
+# Error: COMP96_0019: RARES/Data_Generator.vhd : (131, 29): Keyword 'end' expected.
+# Error: COMP96_0015: RARES/Data_Generator.vhd : (132, 6): ';' expected.
+# Error: COMP96_0016: RARES/Data_Generator.vhd : (132, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
