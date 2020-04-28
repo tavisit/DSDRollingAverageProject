@@ -1,0 +1,21 @@
+[Files List]
+<<<<<<< HEAD
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\STD/src/standard.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/stdlogic.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/arith.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/numstd.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/unsigned.vhd=S
+d:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/OCTAVIAN/NBitAdder.vhd=S
+d:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/OCTAVIAN/HexConverter.vhd=S
+d:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/OCTAVIAN/ShiftRegister.vhd=S
+d:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/OCTAVIAN/MUX.vhd=S
+d:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/OCTAVIAN/MainRegister.vhd=S
+d:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/OCTAVIAN/Filter.vhd=S
+d:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/RollingAverage.vhd=S
+=======
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/standard.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/textio.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Users\manra\Documents\GitHub\DSDRollingAverageProject\ROLLINGAVERAGE\WORK/src/RARES/Pseudo0_255.vhd=S
+>>>>>>> d1a26d0de2a9633f59f71f78a9a55d99d17c263e
