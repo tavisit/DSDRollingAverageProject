@@ -1,4 +1,4 @@
-timestamp=1587391660129
+timestamp=1587999791062
 
 [bitadder]
 A/bitadder=A/BITADDER 21|./src/OCTAVIAN/BITADDER.vhd|36|1*1029872
@@ -35,9 +35,9 @@ R=./src/OCTAVIAN/Filter.vhd|29
 V=0*937668
 
 [hexconverter]
-A/hexconverter=A/HEXCONVERTER 21|./src/OCTAVIAN/HexConverter.vhd|42|1*1048529
-B/hexconverter=3*489049
-H/hexconverter=0*1572218
+A/hexconverter=A/HEXCONVERTER 21|./src/OCTAVIAN/HexConverter.vhd|42|1*1069632
+B/hexconverter=3*514086
+H/hexconverter=0*1598600
 R=./src/OCTAVIAN/HexConverter.vhd|31
 V=0*1500144
 
@@ -76,6 +76,12 @@ H/ninebitadder=0*64982
 R=./src/OCTAVIAN/NBitAdder.vhd|66
 V=0*40345
 
+[rollingaverage]
+A/rollingaverage=A/RollingAverage 21|./src/RollingAverage.vhd|49|1*1065878
+H/rollingaverage=0*1594426
+R=./src/RollingAverage.vhd|28
+V=0*1592104
+
 [sevenbitadder]
 A/sevenbitadder=A/SevenBitAdder 21|./src/OCTAVIAN/NBitAdder.vhd|36|1*11811
 B/sevenbitadder=3*12099
@@ -107,7 +113,7 @@ V=0*43575
 ./src/OCTAVIAN/Filter.vhd~Filter=0*916209*916628
 ./src/OCTAVIAN/Filter.vhd~FilterFilter=0*1569370*1572140
 ./src/OCTAVIAN/HexConverter.vhd~HEXCONVERTER=0*1498658*1499076
-./src/OCTAVIAN/HexConverter.vhd~HEXCONVERTERHEXCONVERTER=0*1572317*1576319
+./src/OCTAVIAN/HexConverter.vhd~HEXCONVERTERHEXCONVERTER=0*1598699*1602701
 ./src/OCTAVIAN/HexConverter.vhd~HexConverter=0*1366312*1366746
 ./src/OCTAVIAN/HexConverter.vhd~HexConverterHexConverter=0*1404196*1407677
 ./src/OCTAVIAN/MUX.vhd~MUX=0*26500*26902
@@ -130,13 +136,15 @@ V=0*43575
 ./src/OCTAVIAN/ShiftRegister.vhd~SHIFTREGISTERSHIFTREGISTER=0*1577749*1578279
 ./src/OCTAVIAN/ShiftRegister.vhd~ShiftRegister=0*907793*908136
 ./src/OCTAVIAN/ShiftRegister.vhd~ShiftRegisterShiftRegister=0*908323*908884
-ModifyID=1379
+./src/RollingAverage.vhd~RollingAverage=0*1586337*1586766
+./src/RollingAverage.vhd~RollingAverageRollingAverage=0*1597891*1598507
+ModifyID=1414
 Version=73
 
 [~MFT]
-0=1471|0WORK.mgf|1578279|1498617
-1=360|1WORK.mgf|1058410|1016768
-3=337|3WORK.mgf|511469|469855
+0=1517|0WORK.mgf|1602701|1514947
+1=367|1WORK.mgf|1069632|1027439
+3=339|3WORK.mgf|514086|487748
 
 [~U]
 bitadder=BITADDER 11|0*261422|0*261624
@@ -150,6 +158,7 @@ mux=MUX 11|0*27552|0*27835
 nbitadder=11|0*422028|0*422322
 ndflipflop=NDFLIPFLOP 11|0*967123|0*967401
 ninebitadder=NineBitAdder 11|0*39685|0*39888
+rollingaverage=11|0*1591019|0*1591352
 sevenbitadder=SevenBitAdder 11|0*33190|0*33395
 shiftregister=11|0*1091577|0*1091811
 tenbitadder=TenBitAdder 11|0*42915|0*43117

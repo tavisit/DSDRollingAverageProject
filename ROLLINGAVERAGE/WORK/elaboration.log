@@ -1,16 +1,17 @@
-elbread.dll ver. 1.0.5.365 Mon Apr 20 17:04:42 2020
+elbread.dll ver. 1.0.5.365 Mon Apr 27 18:02:53 2020
 
 
-----------------------------------------
-Entity         | Architecture  | Library
-----------------------------------------
-filter         | filter        | WORK
-mainregister   | mainregister  | work
-nbitadder      | nbitadder     | work
-mux            | mux           | work
-shiftregister  | shiftregister | work
-hexconverter   | hexconverter  | work
-----------------------------------------
+------------------------------------------
+Entity          | Architecture   | Library
+------------------------------------------
+rollingaverage  | rollingaverage | WORK
+filter          | filter         | work
+mainregister    | mainregister   | work
+nbitadder       | nbitadder      | work
+mux             | mux            | work
+shiftregister   | shiftregister  | work
+hexconverter    | hexconverter   | work
+------------------------------------------
 
 -----------------------------
 Package             | Library

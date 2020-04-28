@@ -7,3 +7,4 @@ i<>.\src\OCTAVIAN\ShiftRegister.vhd
 i<>.\src\BITADDER.vhd
 i<>.\src\GATES.vhd
 i<>.\src\DFLIPFLOP.vhd
+i<>.\src\RollingAverage.vhd

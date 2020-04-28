@@ -1,3 +1,4 @@
+.\src\RollingAverage.vhd
 .\src\OCTAVIAN\BITADDER.vhd
 .\src\OCTAVIAN\NBitAdder.vhd
 .\src\OCTAVIAN\Filter.vhd
