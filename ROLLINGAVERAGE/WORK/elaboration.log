@@ -1,38 +1,34 @@
-Active-HDL 11.1.262.7351 2020-04-28 20:40:26
-
-Elaboration top modules:
-Architecture                  DataGen(Data_Generator)
+elbread.dll ver. 1.0.5.365 Wed Apr 29 17:55:49 2020
 
 
--------------------------------------------------------------------------------------------------
-Entity           | Architecture | Library | Info | Compiler Version        | Compilation Options
--------------------------------------------------------------------------------------------------
-Data_Generator   | DataGen      | work    |      | 11.1.262.7351 (Windows) | -O3
-FrequencyDivider | FreqDiv      | work    |      | 11.1.262.7351 (Windows) | -O3
-SquareWave       | SqWv         | work    |      | 11.1.262.7351 (Windows) | -O3
-SixDigit1        | Seq          | work    |      | 11.1.262.7351 (Windows) | -O3
-SixDigit2        | Seq          | work    |      | 11.1.262.7351 (Windows) | -O3
-Pseudo0_15       | PseudoRNG    | work    |      | 11.1.262.7351 (Windows) | -O3
-Pseudo0_255      | PseudoRNG    | work    |      | 11.1.262.7351 (Windows) | -O3
-Mux_8            | Mux          | work    |      | 11.1.262.7351 (Windows) | -O3
-Mux_8_2          | Mux_8_2      | work    |      | 11.1.262.7351 (Windows) | -O3
-Reg              | Reg          | work    |      | 11.1.262.7351 (Windows) | -O3
--------------------------------------------------------------------------------------------------
+--------------------------------------------
+Entity            | Architecture   | Library
+--------------------------------------------
+rollingaverage    | rollingaverage | WORK
+data_generator    | datagen        | work
+filter            | filter         | work
+frequencydivider  | freqdiv        | work
+squarewave        | sqwv           | work
+sixdigit1         | seq            | work
+sixdigit2         | seq            | work
+pseudo0_15        | pseudorng      | work
+pseudo0_255       | pseudorng      | work
+mux_8             | mux            | work
+mux_8_2           | mux_8_2        | work
+reg               | reg            | work
+mainregister      | mainregister   | work
+nbitadder         | nbitadder      | work
+mux               | mux            | work
+shiftregister     | shiftregister  | work
+hexconverter      | hexconverter   | work
+--------------------------------------------
 
--------------------------------------------------------------------------------------------------
-VHDL Package                    | Library | Info | Compiler Version        | Compilation Options
--------------------------------------------------------------------------------------------------
-standard                        | std     |      |                         | <unavailable>
-TEXTIO                          | std     |      |                         | <unavailable>
-std_logic_1164                  | ieee    |      |                         | <unavailable>
-std_logic_arith                 | ieee    |      |                         | <unavailable>
-STD_LOGIC_UNSIGNED              | ieee    |      |                         | <unavailable>
--------------------------------------------------------------------------------------------------
-
--------------------------------------------------------------------------------------------------
-Library                         | Comment
--------------------------------------------------------------------------------------------------
-ieee                            | Standard IEEE packages library
-std                             | Standard VHDL library
-work                            | None
--------------------------------------------------------------------------------------------------
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+std_logic_1164      | ieee
+std_logic_arith     | ieee
+std_logic_unsigned  | ieee
+numeric_std         | ieee
+-----------------------------
