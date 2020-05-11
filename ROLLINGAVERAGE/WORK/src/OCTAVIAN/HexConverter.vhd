@@ -48,7 +48,7 @@ process(CLK)
 	variable TEMP_OUTPUT:std_logic_vector(7 downto 0):=("11111111");
 	begin  		
 		if(CLK'EVENT AND CLK = '1') then
-			if (CLK_DIV=100000) then -- FOR THE SIMULATION, CLK_DIV = 0, FOR THE REAL THING, CLK_DIV = 100000
+			if (CLK_DIV=0) then -- FOR THE SIMULATION, CLK_DIV = 0, FOR THE REAL THING, CLK_DIV = 100000
 				CLK_DIV:=0;
 			
 				if(TYPE_INPUT='0') then	 -- INPUT FROM THE FILTER OR GENERATOR

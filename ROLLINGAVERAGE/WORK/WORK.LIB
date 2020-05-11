@@ -1,4 +1,4 @@
-timestamp=1588171441370
+timestamp=1589196251280
 
 [bitadder]
 A/bitadder=A/BITADDER 21|./src/OCTAVIAN/BITADDER.vhd|36|1*156618
@@ -21,16 +21,16 @@ R=./src/OCTAVIAN/Filter.vhd|29
 V=0*32657
 
 [frequencydivider]
-A/freqdiv=A/FreqDiv 21|./src/RARES/FrequencyDivider.vhd|29|1*204950
-B/freqdiv=3*190945
-H/freqdiv=0*246732
+A/freqdiv=A/FreqDiv 21|./src/RARES/FrequencyDivider.vhd|29|1*224378
+B/freqdiv=3*210165
+H/freqdiv=0*270000
 R=./src/RARES/FrequencyDivider.vhd|24
 V=0*62841
 
 [hexconverter]
-A/hexconverter=A/HEXCONVERTER 21|./src/OCTAVIAN/HexConverter.vhd|42|1*157905
-B/hexconverter=3*130709
-H/hexconverter=0*209137
+A/hexconverter=A/HEXCONVERTER 21|./src/OCTAVIAN/HexConverter.vhd|42|1*218709
+B/hexconverter=3*192272
+H/hexconverter=0*265803
 R=./src/OCTAVIAN/HexConverter.vhd|31
 V=0*40655
 
@@ -130,7 +130,7 @@ V=0*92275
 ./src/OCTAVIAN/Filter.vhd~Filter=0*11701*12120
 ./src/OCTAVIAN/Filter.vhd~FilterFilter=0*234834*237604
 ./src/OCTAVIAN/HexConverter.vhd~HEXCONVERTER=0*34972*35390
-./src/OCTAVIAN/HexConverter.vhd~HEXCONVERTERHEXCONVERTER=0*209236*213238
+./src/OCTAVIAN/HexConverter.vhd~HEXCONVERTERHEXCONVERTER=0*265902*269904
 ./src/OCTAVIAN/MUX.vhd~MUX=0*45831*46233
 ./src/OCTAVIAN/MUX.vhd~MUXMUX=0*213415*213849
 ./src/OCTAVIAN/MainRegister.vhd~MainRegister=0*42799*43128
@@ -141,7 +141,7 @@ V=0*92275
 ./src/OCTAVIAN/ShiftRegister.vhd~SHIFTREGISTERSHIFTREGISTER=0*214019*214549
 ./src/RARES/Data_Generator.vhd~DataGenData_Generator=0*263122*265711
 ./src/RARES/Data_Generator.vhd~Data_Generator=0*93215*93571
-./src/RARES/FrequencyDivider.vhd~FreqDivFrequencyDivider=0*246985*247411
+./src/RARES/FrequencyDivider.vhd~FreqDivFrequencyDivider=0*270253*270679
 ./src/RARES/FrequencyDivider.vhd~FrequencyDivider=0*61214*61499
 ./src/RARES/Mux_8.vhd~MuxMux_8=0*237764*238208
 ./src/RARES/Mux_8.vhd~Mux_8=0*63216*63775
@@ -161,13 +161,13 @@ V=0*92275
 ./src/RARES/SquareWave.vhd~SquareWave=0*89403*89719
 ./src/RollingAverage.vhd~RollingAverage=0*0*429
 ./src/RollingAverage.vhd~RollingAverageRollingAverage=0*207764*208691
-ModifyID=348
+ModifyID=360
 Version=73
 
 [~MFT]
-0=371|0WORK.mgf|265711|151740
-1=93|1WORK.mgf|206345|151789
-3=81|3WORK.mgf|190945|130002
+0=383|0WORK.mgf|270679|156712
+1=97|1WORK.mgf|224378|158853
+3=85|3WORK.mgf|210165|149222
 
 [~U]
 bitadder=BITADDER 11|0*10676|0*10878

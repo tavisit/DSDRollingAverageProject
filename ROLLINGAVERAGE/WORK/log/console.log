@@ -1,121 +1,19 @@
-# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
-acom -reorder $DSN/src/rollingaverage.vhd $DSN/src/octavian/bitadder.vhd $DSN/src/octavian/filter.vhd $DSN/src/octavian/hexconverter.vhd $DSN/src/octavian/mainregister.vhd $DSN/src/octavian/mux.vhd $DSN/src/octavian/nbitadder.vhd $DSN/src/octavian/shiftregister.vhd $DSN/src/rares/frequencydivider.vhd $DSN/src/rares/mux_8.vhd $DSN/src/rares/mux_8_2.vhd $DSN/src/rares/pseudo0_15.vhd $DSN/src/rares/pseudo0_255.vhd $DSN/src/rares/register.vhd $DSN/src/rares/sixdigit1.vhd $DSN/src/rares/sixdigit2.vhd $DSN/src/rares/squarewave.vhd $DSN/src/rares/data_generator.vhd
-# Compile with File Reorder...
-# Error: VLM_0028: Library `work' has been created with an older version of the compiler. Please empty library and recompile all source files again.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
-# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
-# Error: ULM_0018: Library "WORK" has been created with a different version of compiler. Use the Delete Simulation Data command to remove the library contents, and then recompile all design units.
-# Library Manager: Library "work" contents cleared.
-acom -reorder $DSN/src/rollingaverage.vhd $DSN/src/octavian/bitadder.vhd $DSN/src/octavian/filter.vhd $DSN/src/octavian/hexconverter.vhd $DSN/src/octavian/mainregister.vhd $DSN/src/octavian/mux.vhd $DSN/src/octavian/nbitadder.vhd $DSN/src/octavian/shiftregister.vhd $DSN/src/rares/frequencydivider.vhd $DSN/src/rares/mux_8.vhd $DSN/src/rares/mux_8_2.vhd $DSN/src/rares/pseudo0_15.vhd $DSN/src/rares/pseudo0_255.vhd $DSN/src/rares/register.vhd $DSN/src/rares/sixdigit1.vhd $DSN/src/rares/sixdigit2.vhd $DSN/src/rares/squarewave.vhd $DSN/src/rares/data_generator.vhd
-# Compile with File Reorder...
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RollingAverage.vhd
-# Compile Entity "RollingAverage"
-# Compile Architecture "RollingAverage" of Entity "RollingAverage"
-# Warning: ELAB1_0026: RollingAverage.vhd : (103, 0): There is no default binding for component "Data_Generator".(No entity named "Data_Generator" was found).
-# Warning: ELAB1_0026: RollingAverage.vhd : (104, 0): There is no default binding for component "Filter".(No entity named "Filter" was found).
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\BITADDER.vhd
-# Compile Entity "BITADDER"
-# Compile Architecture "BITADDER" of Entity "BITADDER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
-# Compile Entity "Filter"
-# Compile Architecture "Filter" of Entity "Filter"
-# Warning: ELAB1_0026: Filter.vhd : (137, 0): There is no default binding for component "MainRegister".(No entity named "MainRegister" was found).
-# Warning: ELAB1_0026: Filter.vhd : (141, 0): There is no default binding for component "NBitAdder".(No entity named "NBitAdder" was found).
-# Warning: ELAB1_0026: Filter.vhd : (165, 0): There is no default binding for component "MUX".(No entity named "MUX" was found).
-# Warning: ELAB1_0026: Filter.vhd : (168, 0): There is no default binding for component "SHIFTREGISTER".(No entity named "SHIFTREGISTER" was found).
-# Warning: ELAB1_0026: Filter.vhd : (171, 0): There is no default binding for component "HEXCONVERTER".(No entity named "HEXCONVERTER" was found).
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\HexConverter.vhd
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom $DSN/src/OCTAVIAN/HexConverter.vhd
+# Compile...
+# File: d:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\HexConverter.vhd
 # Compile Entity "HEXCONVERTER"
+# Entity `HEXCONVERTER' has been skipped - no difference detected.
 # Compile Architecture "HEXCONVERTER" of Entity "HEXCONVERTER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MainRegister.vhd
-# Compile Entity "MainRegister"
-# Compile Architecture "MainRegister" of Entity "MainRegister"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MUX.vhd
-# Compile Entity "MUX"
-# Compile Architecture "MUX" of Entity "MUX"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
-# Compile Entity "NBitAdder"
-# Compile Architecture "NBITADDER" of Entity "NBITADDER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\ShiftRegister.vhd
-# Compile Entity "SHIFTREGISTER"
-# Compile Architecture "SHIFTREGISTER" of Entity "SHIFTREGISTER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\FrequencyDivider.vhd
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom $DSN/src/RARES/FrequencyDivider.vhd
+# Compile...
+# File: d:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\FrequencyDivider.vhd
 # Compile Entity "FrequencyDivider"
+# Entity `FrequencyDivider' has been skipped - no difference detected.
 # Compile Architecture "FreqDiv" of Entity "FrequencyDivider"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Mux_8.vhd
-# Compile Entity "Mux_8"
-# Compile Architecture "Mux" of Entity "Mux_8"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Mux_8_2.vhd
-# Compile Entity "Mux_8_2"
-# Compile Architecture "Mux_8_2" of Entity "Mux_8_2"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Pseudo0_15.vhd
-# Compile Entity "Pseudo0_15"
-# Compile Architecture "PseudoRNG" of Entity "Pseudo0_15"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Pseudo0_255.vhd
-# Compile Entity "Pseudo0_255"
-# Compile Architecture "PseudoRNG" of Entity "Pseudo0_255"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Register.vhd
-# Compile Entity "Reg"
-# Compile Architecture "Reg" of Entity "Reg"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\SixDigit1.vhd
-# Compile Entity "SixDigit1"
-# Compile Architecture "Seq" of Entity "SixDigit1"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\SixDigit2.vhd
-# Compile Entity "SixDigit2"
-# Compile Architecture "Seq" of Entity "SixDigit2"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\SquareWave.vhd
-# Compile Entity "SquareWave"
-# Compile Architecture "SqWv" of Entity "SquareWave"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd
-# Compile Entity "Data_Generator"
-# Compile Architecture "DataGen" of Entity "Data_Generator"
-# Improper file order detected
-# Automatic file reorder and recompilation required.
-# File reorder and recompilation in progress
-# Top-Level unit detected
-# Entity  =>   RollingAverage
-# Entity  =>   BITADDER
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
-# Compile Entity "Filter"
-# Entity `Filter' has been skipped - no difference detected.
-# Compile Architecture "Filter" of Entity "Filter"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RollingAverage.vhd
-# Compile Entity "RollingAverage"
-# Entity `RollingAverage' has been skipped - no difference detected.
-# Compile Architecture "RollingAverage" of Entity "RollingAverage"
-# Compile success 0 Errors 0 Warnings  Analysis time :  3.0 [s]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-asim -advdataflow  rollingaverage rollingaverage
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2617 kB (elbread=1075 elab2=471 kernel=1071 sdf=0)
-# 5:39 PM, Wednesday, April 29, 2020
-# Simulation has been initialized
-# Selected Top-Level: rollingaverage (rollingaverage)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-endsim
-# All when statements cleared.
-# Simulation has been stopped
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
 asim -advdataflow  rollingaverage rollingaverage
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
@@ -130,333 +28,7 @@ asim -advdataflow  rollingaverage rollingaverage
 # ELAB2: Elaboration final pass complete - time: 0.1 [s].
 # KERNEL: Kernel process initialization done.
 # Allocation: Simulator allocated 2617 kB (elbread=1075 elab2=471 kernel=1071 sdf=0)
-# 5:42 PM, Wednesday, April 29, 2020
-# Simulation has been initialized
-# Selected Top-Level: rollingaverage (rollingaverage)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-run 100 ns
-# KERNEL: stopped at time: 800 ns
-run 100 ns
-# KERNEL: stopped at time: 900 ns
-run 100 ns
-# KERNEL: stopped at time: 1 us
-run 100 ns
-# KERNEL: stopped at time: 1100 ns
-run 100 ns
-# KERNEL: stopped at time: 1200 ns
-run 100 ns
-# KERNEL: stopped at time: 1300 ns
-run 100 ns
-# KERNEL: stopped at time: 1400 ns
-run 100 ns
-# KERNEL: stopped at time: 1500 ns
-run 100 ns
-# KERNEL: stopped at time: 1600 ns
-run 100 ns
-# KERNEL: stopped at time: 1700 ns
-run 100 ns
-# KERNEL: stopped at time: 1800 ns
-run 100 ns
-# KERNEL: stopped at time: 1900 ns
-run 100 ns
-# KERNEL: stopped at time: 2 us
-run 100 ns
-# KERNEL: stopped at time: 2100 ns
-run 1000 ns
-# KERNEL: stopped at time: 3100 ns
-run 1000 ns
-# KERNEL: stopped at time: 4100 ns
-run 1000 ns
-# KERNEL: stopped at time: 5100 ns
-run 1000 ns
-# KERNEL: stopped at time: 6100 ns
-run 1000 ns
-# KERNEL: stopped at time: 7100 ns
-run 1000 ns
-# KERNEL: stopped at time: 8100 ns
-run 1000 ns
-# KERNEL: stopped at time: 9100 ns
-run 1000 ns
-# KERNEL: stopped at time: 10100 ns
-run 1000 ns
-# KERNEL: stopped at time: 11100 ns
-run 1000 ns
-# KERNEL: stopped at time: 12100 ns
-run 1000 ns
-# KERNEL: stopped at time: 13100 ns
-run 1000 ns
-# KERNEL: stopped at time: 14100 ns
-run 1000 ns
-# KERNEL: stopped at time: 15100 ns
-run 1000 ns
-# KERNEL: stopped at time: 16100 ns
-run 1000 ns
-# KERNEL: stopped at time: 17100 ns
-run 1000 ns
-# KERNEL: stopped at time: 18100 ns
-run 1000 ns
-# KERNEL: stopped at time: 19100 ns
-run 1000 ns
-# KERNEL: stopped at time: 20100 ns
-run 1000 ns
-# KERNEL: stopped at time: 21100 ns
-run 1000 ns
-# KERNEL: stopped at time: 22100 ns
-run 1000 ns
-# KERNEL: stopped at time: 23100 ns
-run 1000 ns
-# KERNEL: stopped at time: 24100 ns
-run 1000 ns
-# KERNEL: stopped at time: 25100 ns
-run 1000 ns
-# KERNEL: stopped at time: 26100 ns
-run 1000 ns
-# KERNEL: stopped at time: 27100 ns
-run 1000 ns
-# KERNEL: stopped at time: 28100 ns
-run 1000 ns
-# KERNEL: stopped at time: 29100 ns
-endsim
-# All when statements cleared.
-# Simulation has been stopped
-acom $DSN/src/rollingaverage.vhd $DSN/src/octavian/bitadder.vhd $DSN/src/octavian/hexconverter.vhd $DSN/src/octavian/mux.vhd $DSN/src/octavian/shiftregister.vhd $DSN/src/octavian/nbitadder.vhd $DSN/src/octavian/mainregister.vhd $DSN/src/octavian/filter.vhd $DSN/src/rares/mux_8.vhd $DSN/src/rares/pseudo0_15.vhd $DSN/src/rares/mux_8_2.vhd $DSN/src/rares/register.vhd $DSN/src/rares/sixdigit2.vhd $DSN/src/rares/squarewave.vhd $DSN/src/rares/sixdigit1.vhd $DSN/src/rares/pseudo0_255.vhd $DSN/src/rares/frequencydivider.vhd $DSN/src/rares/data_generator.vhd
-# Compile...
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RollingAverage.vhd
-# Compile Entity "RollingAverage"
-# Entity `RollingAverage' has been skipped - no difference detected.
-# Compile Architecture "RollingAverage" of Entity "RollingAverage"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\BITADDER.vhd
-# Compile Entity "BITADDER"
-# Entity `BITADDER' has been skipped - no difference detected.
-# Compile Architecture "BITADDER" of Entity "BITADDER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\HexConverter.vhd
-# Compile Entity "HEXCONVERTER"
-# Entity `HEXCONVERTER' has been skipped - no difference detected.
-# Compile Architecture "HEXCONVERTER" of Entity "HEXCONVERTER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MUX.vhd
-# Compile Entity "MUX"
-# Entity `MUX' has been skipped - no difference detected.
-# Compile Architecture "MUX" of Entity "MUX"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\ShiftRegister.vhd
-# Compile Entity "SHIFTREGISTER"
-# Entity `SHIFTREGISTER' has been skipped - no difference detected.
-# Compile Architecture "SHIFTREGISTER" of Entity "SHIFTREGISTER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
-# Compile Entity "NBitAdder"
-# Entity `NBitAdder' has been skipped - no difference detected.
-# Compile Architecture "NBITADDER" of Entity "NBITADDER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MainRegister.vhd
-# Compile Entity "MainRegister"
-# Entity `MainRegister' has been skipped - no difference detected.
-# Compile Architecture "MainRegister" of Entity "MainRegister"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
-# Compile Entity "Filter"
-# Entity `Filter' has been skipped - no difference detected.
-# Compile Architecture "Filter" of Entity "Filter"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Mux_8.vhd
-# Compile Entity "Mux_8"
-# Entity `Mux_8' has been skipped - no difference detected.
-# Compile Architecture "Mux" of Entity "Mux_8"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Pseudo0_15.vhd
-# Compile Entity "Pseudo0_15"
-# Entity `Pseudo0_15' has been skipped - no difference detected.
-# Compile Architecture "PseudoRNG" of Entity "Pseudo0_15"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Mux_8_2.vhd
-# Compile Entity "Mux_8_2"
-# Entity `Mux_8_2' has been skipped - no difference detected.
-# Compile Architecture "Mux_8_2" of Entity "Mux_8_2"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Register.vhd
-# Compile Entity "Reg"
-# Entity `Reg' has been skipped - no difference detected.
-# Compile Architecture "Reg" of Entity "Reg"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\SixDigit2.vhd
-# Compile Entity "SixDigit2"
-# Entity `SixDigit2' has been skipped - no difference detected.
-# Compile Architecture "Seq" of Entity "SixDigit2"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\SquareWave.vhd
-# Compile Entity "SquareWave"
-# Entity `SquareWave' has been skipped - no difference detected.
-# Compile Architecture "SqWv" of Entity "SquareWave"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\SixDigit1.vhd
-# Compile Entity "SixDigit1"
-# Entity `SixDigit1' has been skipped - no difference detected.
-# Compile Architecture "Seq" of Entity "SixDigit1"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Pseudo0_255.vhd
-# Compile Entity "Pseudo0_255"
-# Entity `Pseudo0_255' has been skipped - no difference detected.
-# Compile Architecture "PseudoRNG" of Entity "Pseudo0_255"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\FrequencyDivider.vhd
-# Compile Entity "FrequencyDivider"
-# Entity `FrequencyDivider' has been skipped - no difference detected.
-# Compile Architecture "FreqDiv" of Entity "FrequencyDivider"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd
-# Compile Entity "Data_Generator"
-# Entity `Data_Generator' has been skipped - no difference detected.
-# Compile Architecture "DataGen" of Entity "Data_Generator"
-# Compile success 0 Errors 0 Warnings  Analysis time :  3.0 [s]
-acom $DSN/src/rollingaverage.vhd $DSN/src/octavian/bitadder.vhd $DSN/src/octavian/hexconverter.vhd $DSN/src/octavian/mux.vhd $DSN/src/octavian/shiftregister.vhd $DSN/src/octavian/nbitadder.vhd $DSN/src/octavian/mainregister.vhd $DSN/src/octavian/filter.vhd $DSN/src/rares/mux_8.vhd $DSN/src/rares/pseudo0_15.vhd $DSN/src/rares/mux_8_2.vhd $DSN/src/rares/register.vhd $DSN/src/rares/sixdigit2.vhd $DSN/src/rares/squarewave.vhd $DSN/src/rares/sixdigit1.vhd $DSN/src/rares/pseudo0_255.vhd $DSN/src/rares/frequencydivider.vhd $DSN/src/rares/data_generator.vhd
-# Compile...
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RollingAverage.vhd
-# Compile Entity "RollingAverage"
-# Entity `RollingAverage' has been skipped - no difference detected.
-# Compile Architecture "RollingAverage" of Entity "RollingAverage"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\BITADDER.vhd
-# Compile Entity "BITADDER"
-# Entity `BITADDER' has been skipped - no difference detected.
-# Compile Architecture "BITADDER" of Entity "BITADDER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\HexConverter.vhd
-# Compile Entity "HEXCONVERTER"
-# Entity `HEXCONVERTER' has been skipped - no difference detected.
-# Compile Architecture "HEXCONVERTER" of Entity "HEXCONVERTER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MUX.vhd
-# Compile Entity "MUX"
-# Entity `MUX' has been skipped - no difference detected.
-# Compile Architecture "MUX" of Entity "MUX"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\ShiftRegister.vhd
-# Compile Entity "SHIFTREGISTER"
-# Entity `SHIFTREGISTER' has been skipped - no difference detected.
-# Compile Architecture "SHIFTREGISTER" of Entity "SHIFTREGISTER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\NBitAdder.vhd
-# Compile Entity "NBitAdder"
-# Entity `NBitAdder' has been skipped - no difference detected.
-# Compile Architecture "NBITADDER" of Entity "NBITADDER"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\MainRegister.vhd
-# Compile Entity "MainRegister"
-# Entity `MainRegister' has been skipped - no difference detected.
-# Compile Architecture "MainRegister" of Entity "MainRegister"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\OCTAVIAN\Filter.vhd
-# Compile Entity "Filter"
-# Entity `Filter' has been skipped - no difference detected.
-# Compile Architecture "Filter" of Entity "Filter"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Mux_8.vhd
-# Compile Entity "Mux_8"
-# Entity `Mux_8' has been skipped - no difference detected.
-# Compile Architecture "Mux" of Entity "Mux_8"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Pseudo0_15.vhd
-# Compile Entity "Pseudo0_15"
-# Entity `Pseudo0_15' has been skipped - no difference detected.
-# Compile Architecture "PseudoRNG" of Entity "Pseudo0_15"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Mux_8_2.vhd
-# Compile Entity "Mux_8_2"
-# Entity `Mux_8_2' has been skipped - no difference detected.
-# Compile Architecture "Mux_8_2" of Entity "Mux_8_2"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Register.vhd
-# Compile Entity "Reg"
-# Entity `Reg' has been skipped - no difference detected.
-# Compile Architecture "Reg" of Entity "Reg"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\SixDigit2.vhd
-# Compile Entity "SixDigit2"
-# Entity `SixDigit2' has been skipped - no difference detected.
-# Compile Architecture "Seq" of Entity "SixDigit2"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\SquareWave.vhd
-# Compile Entity "SquareWave"
-# Entity `SquareWave' has been skipped - no difference detected.
-# Compile Architecture "SqWv" of Entity "SquareWave"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\SixDigit1.vhd
-# Compile Entity "SixDigit1"
-# Entity `SixDigit1' has been skipped - no difference detected.
-# Compile Architecture "Seq" of Entity "SixDigit1"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Pseudo0_255.vhd
-# Compile Entity "Pseudo0_255"
-# Entity `Pseudo0_255' has been skipped - no difference detected.
-# Compile Architecture "PseudoRNG" of Entity "Pseudo0_255"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\FrequencyDivider.vhd
-# Compile Entity "FrequencyDivider"
-# Entity `FrequencyDivider' has been skipped - no difference detected.
-# Compile Architecture "FreqDiv" of Entity "FrequencyDivider"
-# File: D:\GitHubProjects\DSDRollingAverageProject\ROLLINGAVERAGE\WORK\src\RARES\Data_Generator.vhd
-# Compile Entity "Data_Generator"
-# Entity `Data_Generator' has been skipped - no difference detected.
-# Compile Architecture "DataGen" of Entity "Data_Generator"
-# Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]
-asim -advdataflow  rollingaverage rollingaverage
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2617 kB (elbread=1075 elab2=471 kernel=1071 sdf=0)
-# 5:44 PM, Wednesday, April 29, 2020
-# Simulation has been initialized
-# Selected Top-Level: rollingaverage (rollingaverage)
-run 1000 ns
-# KERNEL: stopped at time: 1 us
-run 1000 ns
-# KERNEL: stopped at time: 2 us
-run 1000 ns
-# KERNEL: stopped at time: 3 us
-run 1000 ns
-# KERNEL: stopped at time: 4 us
-run 1000 ns
-# KERNEL: stopped at time: 5 us
-endsim
-# All when statements cleared.
-# Simulation has been stopped
-asim -advdataflow  rollingaverage rollingaverage
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2617 kB (elbread=1075 elab2=471 kernel=1071 sdf=0)
-# 5:45 PM, Wednesday, April 29, 2020
-# Simulation has been initialized
-# Selected Top-Level: rollingaverage (rollingaverage)
-run 1000 ns
-# KERNEL: stopped at time: 1 us
-run 1000 ns
-# KERNEL: stopped at time: 2 us
-run 1000 ns
-# KERNEL: stopped at time: 3 us
-run 1000 ns
-# KERNEL: stopped at time: 4 us
-run 1000 ns
-# KERNEL: stopped at time: 5 us
-endsim
-# All when statements cleared.
-# Simulation has been stopped
-asim -advdataflow  rollingaverage rollingaverage
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.1 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2617 kB (elbread=1075 elab2=471 kernel=1071 sdf=0)
-# 5:47 PM, Wednesday, April 29, 2020
+# 2:24 PM, Monday, May 11, 2020
 # Simulation has been initialized
 # Selected Top-Level: rollingaverage (rollingaverage)
 run 1000 ns
@@ -477,58 +49,48 @@ run 1000 ns
 # KERNEL: stopped at time: 8 us
 run 1000 ns
 # KERNEL: stopped at time: 9 us
-run
-endsim
-# All when statements cleared.
-# KERNEL: stopped at time: 72381760 ns
-# Simulation has been stopped
-asim -advdataflow  rollingaverage rollingaverage
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2617 kB (elbread=1075 elab2=471 kernel=1071 sdf=0)
-# 5:52 PM, Wednesday, April 29, 2020
-# Simulation has been initialized
-# Selected Top-Level: rollingaverage (rollingaverage)
-run
-endsim
-# All when statements cleared.
-# KERNEL: stopped at delta: 0 at time 19880100 ns.
-# Simulation has been stopped
-asim -advdataflow  rollingaverage rollingaverage
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.1 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2617 kB (elbread=1075 elab2=471 kernel=1071 sdf=0)
-# 5:53 PM, Wednesday, April 29, 2020
-# Simulation has been initialized
-# Selected Top-Level: rollingaverage (rollingaverage)
 run 1000 ns
-# KERNEL: stopped at time: 1 us
+# KERNEL: stopped at time: 10 us
 run 1000 ns
-# KERNEL: stopped at time: 2 us
+# KERNEL: stopped at time: 11 us
 run 1000 ns
-# KERNEL: stopped at time: 3 us
+# KERNEL: stopped at time: 12 us
 run 1000 ns
-# KERNEL: stopped at time: 4 us
+# KERNEL: stopped at time: 13 us
+run 1000 ns
+# KERNEL: stopped at time: 14 us
+run 1000 ns
+# KERNEL: stopped at time: 15 us
+run 1000 ns
+# KERNEL: stopped at time: 16 us
+run 1000 ns
+# KERNEL: stopped at time: 17 us
+run 1000 ns
+# KERNEL: stopped at time: 18 us
+run 1000 ns
+# KERNEL: stopped at time: 19 us
+run 1000 ns
+# KERNEL: stopped at time: 20 us
+run 1000 ns
+# KERNEL: stopped at time: 21 us
+run 1000 ns
+# KERNEL: stopped at time: 22 us
+run 1000 ns
+# KERNEL: stopped at time: 23 us
+run 1000 ns
+# KERNEL: stopped at time: 24 us
+run 1000 ns
+# KERNEL: stopped at time: 25 us
+run 1000 ns
+# KERNEL: stopped at time: 26 us
+run 1000 ns
+# KERNEL: stopped at time: 27 us
+run 1000 ns
+# KERNEL: stopped at time: 28 us
+run 1000 ns
+# KERNEL: stopped at time: 29 us
+run 1000 ns
+# KERNEL: stopped at time: 30 us
 endsim
 # All when statements cleared.
 # Simulation has been stopped
@@ -546,7 +108,7 @@ asim -advdataflow  rollingaverage rollingaverage
 # ELAB2: Elaboration final pass complete - time: 0.1 [s].
 # KERNEL: Kernel process initialization done.
 # Allocation: Simulator allocated 2617 kB (elbread=1075 elab2=471 kernel=1071 sdf=0)
-# 5:55 PM, Wednesday, April 29, 2020
+# 2:43 PM, Monday, May 11, 2020
 # Simulation has been initialized
 # Selected Top-Level: rollingaverage (rollingaverage)
 run 1000 ns
@@ -557,4 +119,544 @@ run 1000 ns
 # KERNEL: stopped at time: 3 us
 run 1000 ns
 # KERNEL: stopped at time: 4 us
+run 1000 ns
+# KERNEL: stopped at time: 5 us
+run 1000 ns
+# KERNEL: stopped at time: 6 us
+run 1000 ns
+# KERNEL: stopped at time: 7 us
+run 1000 ns
+# KERNEL: stopped at time: 8 us
+run 1000 ns
+# KERNEL: stopped at time: 9 us
+run 1000 ns
+# KERNEL: stopped at time: 10 us
+run 1000 ns
+# KERNEL: stopped at time: 11 us
+run 1000 ns
+# KERNEL: stopped at time: 12 us
+run 1000 ns
+# KERNEL: stopped at time: 13 us
+run 1000 ns
+# KERNEL: stopped at time: 14 us
+run 1000 ns
+# KERNEL: stopped at time: 15 us
+run 1000 ns
+# KERNEL: stopped at time: 16 us
+run 1000 ns
+# KERNEL: stopped at time: 17 us
+run 1000 ns
+# KERNEL: stopped at time: 18 us
+run 1000 ns
+# KERNEL: stopped at time: 19 us
+run 1000 ns
+# KERNEL: stopped at time: 20 us
+run 1000 ns
+# KERNEL: stopped at time: 21 us
+run 1000 ns
+# KERNEL: stopped at time: 22 us
+run 1000 ns
+# KERNEL: stopped at time: 23 us
+run 1000 ns
+# KERNEL: stopped at time: 24 us
+run 1000 ns
+# KERNEL: stopped at time: 25 us
+run 1000 ns
+# KERNEL: stopped at time: 26 us
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  rollingaverage rollingaverage
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2617 kB (elbread=1075 elab2=471 kernel=1071 sdf=0)
+# 2:44 PM, Monday, May 11, 2020
+# Simulation has been initialized
+# Selected Top-Level: rollingaverage (rollingaverage)
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+run 1000 ns
+# KERNEL: stopped at time: 2 us
+run 1000 ns
+# KERNEL: stopped at time: 3 us
+run 1000 ns
+# KERNEL: stopped at time: 4 us
+run 1000 ns
+# KERNEL: stopped at time: 5 us
+run 1000 ns
+# KERNEL: stopped at time: 6 us
+run 1000 ns
+# KERNEL: stopped at time: 7 us
+run 1000 ns
+# KERNEL: stopped at time: 8 us
+run 1000 ns
+# KERNEL: stopped at time: 9 us
+run 1000 ns
+# KERNEL: stopped at time: 10 us
+run 1000 ns
+# KERNEL: stopped at time: 11 us
+run 1000 ns
+# KERNEL: stopped at time: 12 us
+run 1000 ns
+# KERNEL: stopped at time: 13 us
+run 1000 ns
+# KERNEL: stopped at time: 14 us
+run 1000 ns
+# KERNEL: stopped at time: 15 us
+run 1000 ns
+# KERNEL: stopped at time: 16 us
+run 1000 ns
+# KERNEL: stopped at time: 17 us
+run 1000 ns
+# KERNEL: stopped at time: 18 us
+run 1000 ns
+# KERNEL: stopped at time: 19 us
+run 1000 ns
+# KERNEL: stopped at time: 20 us
+run 1000 ns
+# KERNEL: stopped at time: 21 us
+run 1000 ns
+# KERNEL: stopped at time: 22 us
+run 1000 ns
+# KERNEL: stopped at time: 23 us
+run 1000 ns
+# KERNEL: stopped at time: 24 us
+run 1000 ns
+# KERNEL: stopped at time: 25 us
+run 1000 ns
+# KERNEL: stopped at time: 26 us
+run 1000 ns
+# KERNEL: stopped at time: 27 us
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  rollingaverage rollingaverage
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2617 kB (elbread=1075 elab2=471 kernel=1071 sdf=0)
+# 2:46 PM, Monday, May 11, 2020
+# Simulation has been initialized
+# Selected Top-Level: rollingaverage (rollingaverage)
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+run 1000 ns
+# KERNEL: stopped at time: 2 us
+run 1000 ns
+# KERNEL: stopped at time: 3 us
+run 1000 ns
+# KERNEL: stopped at time: 4 us
+run 1000 ns
+# KERNEL: stopped at time: 5 us
+run 10000 ns
+# KERNEL: stopped at time: 15 us
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  rollingaverage rollingaverage
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2617 kB (elbread=1075 elab2=471 kernel=1071 sdf=0)
+# 2:46 PM, Monday, May 11, 2020
+# Simulation has been initialized
+# Selected Top-Level: rollingaverage (rollingaverage)
+run 10000 ns
+# KERNEL: stopped at time: 10 us
+run 10000 ns
+# KERNEL: stopped at time: 20 us
+run 10000 ns
+# KERNEL: stopped at time: 30 us
+run 10000 ns
+# KERNEL: stopped at time: 40 us
+run 10000 ns
+# KERNEL: stopped at time: 50 us
+run 10000 ns
+# KERNEL: stopped at time: 60 us
+run 10000 ns
+# KERNEL: stopped at time: 70 us
+run 10000 ns
+# KERNEL: stopped at time: 80 us
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  rollingaverage rollingaverage
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2617 kB (elbread=1075 elab2=471 kernel=1071 sdf=0)
+# 2:48 PM, Monday, May 11, 2020
+# Simulation has been initialized
+# Selected Top-Level: rollingaverage (rollingaverage)
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+run 1000 ns
+# KERNEL: stopped at time: 2 us
+run 1000 ns
+# KERNEL: stopped at time: 3 us
+run 1000 ns
+# KERNEL: stopped at time: 4 us
+run 1000 ns
+# KERNEL: stopped at time: 5 us
+run 1000 ns
+# KERNEL: stopped at time: 6 us
+run 1000 ns
+# KERNEL: stopped at time: 7 us
+run 1000 ns
+# KERNEL: stopped at time: 8 us
+run 1000 ns
+# KERNEL: stopped at time: 9 us
+run 1000 ns
+# KERNEL: stopped at time: 10 us
+run 1000 ns
+# KERNEL: stopped at time: 11 us
+run 1000 ns
+# KERNEL: stopped at time: 12 us
+run 1000 ns
+# KERNEL: stopped at time: 13 us
+run 1000 ns
+# KERNEL: stopped at time: 14 us
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  rollingaverage rollingaverage
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2617 kB (elbread=1075 elab2=471 kernel=1071 sdf=0)
+# 2:54 PM, Monday, May 11, 2020
+# Simulation has been initialized
+# Selected Top-Level: rollingaverage (rollingaverage)
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+run 1000 ns
+# KERNEL: stopped at time: 2 us
+run 1000 ns
+# KERNEL: stopped at time: 3 us
+run 1000 ns
+# KERNEL: stopped at time: 4 us
+run 1000 ns
+# KERNEL: stopped at time: 5 us
+run 1000 ns
+# KERNEL: stopped at time: 6 us
+run 1000 ns
+# KERNEL: stopped at time: 7 us
+run 1000 ns
+# KERNEL: stopped at time: 8 us
+run 1000 ns
+# KERNEL: stopped at time: 9 us
+run 1000 ns
+# KERNEL: stopped at time: 10 us
+run 1000 ns
+# KERNEL: stopped at time: 11 us
+run 1000 ns
+# KERNEL: stopped at time: 12 us
+run 1000 ns
+# KERNEL: stopped at time: 13 us
+run 1000 ns
+# KERNEL: stopped at time: 14 us
+run 1000 ns
+# KERNEL: stopped at time: 15 us
+run 1000 ns
+# KERNEL: stopped at time: 16 us
+run 1000 ns
+# KERNEL: stopped at time: 17 us
+run 1000 ns
+# KERNEL: stopped at time: 18 us
+run 1000 ns
+# KERNEL: stopped at time: 19 us
+run 1000 ns
+# KERNEL: stopped at time: 20 us
+run 1000 ns
+# KERNEL: stopped at time: 21 us
+run 1000 ns
+# KERNEL: stopped at time: 22 us
+run 1000 ns
+# KERNEL: stopped at time: 23 us
+run 1000 ns
+# KERNEL: stopped at time: 24 us
+run 1000 ns
+# KERNEL: stopped at time: 25 us
+run 1000 ns
+# KERNEL: stopped at time: 26 us
+run 1000 ns
+# KERNEL: stopped at time: 27 us
+run 1000 ns
+# KERNEL: stopped at time: 28 us
+run 1000 ns
+# KERNEL: stopped at time: 29 us
+run 1000 ns
+# KERNEL: stopped at time: 30 us
+run 1000 ns
+# KERNEL: stopped at time: 31 us
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  rollingaverage rollingaverage
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2617 kB (elbread=1075 elab2=471 kernel=1071 sdf=0)
+# 2:55 PM, Monday, May 11, 2020
+# Simulation has been initialized
+# Selected Top-Level: rollingaverage (rollingaverage)
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+run 1000 ns
+# KERNEL: stopped at time: 2 us
+run 1000 ns
+# KERNEL: stopped at time: 3 us
+run 1000 ns
+# KERNEL: stopped at time: 4 us
+run 1000 ns
+# KERNEL: stopped at time: 5 us
+run 1000 ns
+# KERNEL: stopped at time: 6 us
+run 1000 ns
+# KERNEL: stopped at time: 7 us
+run 1000 ns
+# KERNEL: stopped at time: 8 us
+run 1000 ns
+# KERNEL: stopped at time: 9 us
+run 1000 ns
+# KERNEL: stopped at time: 10 us
+run 1000 ns
+# KERNEL: stopped at time: 11 us
+run 1000 ns
+# KERNEL: stopped at time: 12 us
+run 1000 ns
+# KERNEL: stopped at time: 13 us
+run 1000 ns
+# KERNEL: stopped at time: 14 us
+run 1000 ns
+# KERNEL: stopped at time: 15 us
+run 1000 ns
+# KERNEL: stopped at time: 16 us
+run 1000 ns
+# KERNEL: stopped at time: 17 us
+run 1000 ns
+# KERNEL: stopped at time: 18 us
+run 1000 ns
+# KERNEL: stopped at time: 19 us
+run 1000 ns
+# KERNEL: stopped at time: 20 us
+run 1000 ns
+# KERNEL: stopped at time: 21 us
+run 1000 ns
+# KERNEL: stopped at time: 22 us
+run 1000 ns
+# KERNEL: stopped at time: 23 us
+run 1000 ns
+# KERNEL: stopped at time: 24 us
+run 1000 ns
+# KERNEL: stopped at time: 25 us
+run 1000 ns
+# KERNEL: stopped at time: 26 us
+run 1000 ns
+# KERNEL: stopped at time: 27 us
+run 1000 ns
+# KERNEL: stopped at time: 28 us
+run 1000 ns
+# KERNEL: stopped at time: 29 us
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim -advdataflow  rollingaverage rollingaverage
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2617 kB (elbread=1075 elab2=471 kernel=1071 sdf=0)
+# 2:59 PM, Monday, May 11, 2020
+# Simulation has been initialized
+# Selected Top-Level: rollingaverage (rollingaverage)
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+run 1000 ns
+# KERNEL: stopped at time: 2 us
+run 1000 ns
+# KERNEL: stopped at time: 3 us
+run 1000 ns
+# KERNEL: stopped at time: 4 us
+run 1000 ns
+# KERNEL: stopped at time: 5 us
+run 1000 ns
+# KERNEL: stopped at time: 6 us
+run 1000 ns
+# KERNEL: stopped at time: 7 us
+run 1000 ns
+# KERNEL: stopped at time: 8 us
+run 1000 ns
+# KERNEL: stopped at time: 9 us
+run 1000 ns
+# KERNEL: stopped at time: 10 us
+run 1000 ns
+# KERNEL: stopped at time: 11 us
+run 1000 ns
+# KERNEL: stopped at time: 12 us
+run 1000 ns
+# KERNEL: stopped at time: 13 us
+run 1000 ns
+# KERNEL: stopped at time: 14 us
+run 1000 ns
+# KERNEL: stopped at time: 15 us
+run 1000 ns
+# KERNEL: stopped at time: 16 us
+run 1000 ns
+# KERNEL: stopped at time: 17 us
+run 1000 ns
+# KERNEL: stopped at time: 18 us
+run 1000 ns
+# KERNEL: stopped at time: 19 us
+run 1000 ns
+# KERNEL: stopped at time: 20 us
+run 1000 ns
+# KERNEL: stopped at time: 21 us
+run 1000 ns
+# KERNEL: stopped at time: 22 us
+run 1000 ns
+# KERNEL: stopped at time: 23 us
+run 1000 ns
+# KERNEL: stopped at time: 24 us
+run 1000 ns
+# KERNEL: stopped at time: 25 us
+run 1000 ns
+# KERNEL: stopped at time: 26 us
+run 1000 ns
+# KERNEL: stopped at time: 27 us
+run 1000 ns
+# KERNEL: stopped at time: 28 us
+run 1000 ns
+# KERNEL: stopped at time: 29 us
+run 1000 ns
+# KERNEL: stopped at time: 30 us
+run 1000 ns
+# KERNEL: stopped at time: 31 us
+run 1000 ns
+# KERNEL: stopped at time: 32 us
+run 1000 ns
+# KERNEL: stopped at time: 33 us
+run 1000 ns
+# KERNEL: stopped at time: 34 us
+run 1000 ns
+# KERNEL: stopped at time: 35 us
+run 1000 ns
+# KERNEL: stopped at time: 36 us
+run 1000 ns
+# KERNEL: stopped at time: 37 us
+run 1000 ns
+# KERNEL: stopped at time: 38 us
+run 1000 ns
+# KERNEL: stopped at time: 39 us
+run 1000 ns
+# KERNEL: stopped at time: 40 us
+run 1000 ns
+# KERNEL: stopped at time: 41 us
+run 1000 ns
+# KERNEL: stopped at time: 42 us
+run 1000 ns
+# KERNEL: stopped at time: 43 us
+run 1000 ns
+# KERNEL: stopped at time: 44 us
+run 1000 ns
+# KERNEL: stopped at time: 45 us
+run 1000 ns
+# KERNEL: stopped at time: 46 us
+run 1000 ns
+# KERNEL: stopped at time: 47 us
+run 1000 ns
+# KERNEL: stopped at time: 48 us
+run 1000 ns
+# KERNEL: stopped at time: 49 us
+run 1000 ns
+# KERNEL: stopped at time: 50 us
+run 1000 ns
+# KERNEL: stopped at time: 51 us
+run 1000 ns
+# KERNEL: stopped at time: 52 us
+run 1000 ns
+# KERNEL: stopped at time: 53 us
+run 1000 ns
+# KERNEL: stopped at time: 54 us
+run 1000 ns
+# KERNEL: stopped at time: 55 us
+run 1000 ns
+# KERNEL: stopped at time: 56 us
+run 1000 ns
+# KERNEL: stopped at time: 57 us
+run 1000 ns
+# KERNEL: stopped at time: 58 us
+run 1000 ns
+# KERNEL: stopped at time: 59 us
+run 10000 ns
+# KERNEL: stopped at time: 69 us
+run 10000 ns
+# KERNEL: stopped at time: 79 us
+run 10000 ns
+# KERNEL: stopped at time: 89 us
+endsim
+# All when statements cleared.
 # Simulation has been stopped

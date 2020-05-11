@@ -1,4 +1,4 @@
-348
+360
 ~E 1 "./src/RARES/Mux_8.vhd" 24 mux_8
 ~A 1 "./src/RARES/Mux_8.vhd" 37 mux
 ~E 1 "./src/RARES/FrequencyDivider.vhd" 24 frequencydivider

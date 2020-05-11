@@ -37,7 +37,7 @@ begin
 			tmp <= '0';
 		elsif rising_edge(SysClk) then
 			count<=count+1;
-			if(count = 	25000000) then
+			if(count = 	10) then
 				--25000000 for the final project and 10 for testing
 				tmp <= NOT tmp;
 				count <= 1;
